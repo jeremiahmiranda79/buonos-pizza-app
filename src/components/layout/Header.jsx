@@ -33,7 +33,7 @@ const Header = () => {
     <div>
       <nav id="navbar">
         <input type="checkbox" id="sidebar-active" />
-        <a class="home-link-1" href="/"><img src="/images/icons-logos/buonos-logo1.webp" alt="" /></a>
+        <a className="home-link-1" href="/"><img src="/images/icons-logos/Fulldecal.png" alt="" /></a>
 
       <label for="sidebar-active" class="open-sidebar-button">
         <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
@@ -46,7 +46,7 @@ const Header = () => {
           <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
         </label>
 
-        <a class="home-link" href="/"><img src="/images/icons-logos/buonos-logo1.webp" alt="" /></a> 
+        <a className="home-link" href="/"><img src="/images/icons-logos/Fulldecal.png" alt="" /></a> 
   
         <a href="/">Home</a> 
         <a href="/menu">Menu</a> 
