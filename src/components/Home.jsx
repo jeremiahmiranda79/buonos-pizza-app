@@ -15,6 +15,7 @@ const Home = () => {
       <div class="heading buonos-font">
         <center>
           <h2>How we do it</h2>
+          <h2>How we do it</h2>
         </center>
       </div>
       
