@@ -11,7 +11,7 @@ export const INFORMATION = [
     phone: '📞 480-899-1200',
 
     email_link: 'mailto: buonosgilbert@yahoo.com',
-    email: ' ✉️buonosgilbert@yahoo.com',
+    email: '✉️ buonosgilbert@yahoo.com',
 
     style: '100% Authentic New York Style',
     description: 'We thank you for supporting our locally owned and operated pizzeria!',
