@@ -28,6 +28,8 @@ const MenuItem = () => {
         <CategoryBar />
       </div>
 
+      <br />
+
       <div className='MenuPage'>
         <Pizza/>
         <br />

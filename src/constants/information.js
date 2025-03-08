@@ -2,16 +2,16 @@ export const INFORMATION = [
   {
     name: 'Information',
     welcome: 'Welcome to Buonos Pizza Williams Field',
-    llc: '🍕 Buonos Gilbert LLC',
+    llc: '🍕  Buonos Gilbert LLC',
     
     address_link: 'https://www.google.com/maps/dir//1464+E+Williams+Field+Rd,+Gilbert,+AZ+85295/@33.3074096,-111.8409328,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x872bac74ffc357e1:0xed805996e92f4bc4!2m2!1d-111.7585316!2d33.3074368?entry=ttu',
-    address: '👉 1464 East Wiliams Field Road, Gilbert, Arizona 85295',
+    address: '👉  1464 East Wiliams Field Road, Gilbert, Arizona 85295',
 
     phone_link: 'tel:+14808991200',
-    phone: '📞 480-899-1200',
+    phone: '📞  480-899-1200',
 
     email_link: 'mailto: buonosgilbert@yahoo.com',
-    email: '✉️ buonosgilbert@yahoo.com',
+    email: '✉️  buonosgilbert@yahoo.com',
 
     style: '100% Authentic New York Style',
     description: 'We thank you for supporting our locally owned and operated pizzeria!',

@@ -128,9 +128,9 @@ export const NY_SPECIALTY = [
   {
     id: 10,
     category: 'NYSpecialty',
-    name: 'Fox"s u-bet Syrup',
+    name: 'Foxs u-bet Syrup',
     description: 'This extra-thick U-Bet Chocolate or Vanilla Syrup is the perfect companion for egg creams, ice cream sundaes, milkshakes, chocolate milk, and pancakes! This fat-free chocolate syrup has a rich chocolate flavor and smooth, velvety texture.',
-    images: '/images/menu-items/icons-logos/.webp',
+    images: '/images/icons-logos/buonos-logo-3.webp',
     size1: '22 oz',
     price1: 8.99,
     size2: null,
@@ -139,60 +139,60 @@ export const NY_SPECIALTY = [
     price3: null
   },
 
-  {
-    id: 11,
-    category: 'NYSpecialty',
-    name: '',
-    description: '.',
-    images: '/images/menu-items/ny-favorite/.webp',
-    size1: '',
-    price1: 0,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null
-  },
+  // {
+  //   id: 11,
+  //   category: 'NYSpecialty',
+  //   name: '',
+  //   description: '.',
+  //   images: '/images/menu-items/ny-favorite/.webp',
+  //   size1: '',
+  //   price1: 0,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null
+  // },
 
-  {
-    id: 12,
-    category: 'NYSpecialty',
-    name: '',
-    description: '.',
-    images: '/images/menu-items/ny-favorite/.webp',
-    size1: '',
-    price1: 0,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null
-  },
+  // {
+  //   id: 12,
+  //   category: 'NYSpecialty',
+  //   name: '',
+  //   description: '.',
+  //   images: '/images/menu-items/ny-favorite/.webp',
+  //   size1: '',
+  //   price1: 0,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null
+  // },
 
-  {
-    id: 13,
-    category: 'NYSpecialty',
-    name: '',
-    description: '.',
-    images: '/images/menu-items/ny-favorite/.webp',
-    size1: '',
-    price1: 0,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null
-  },
+  // {
+  //   id: 13,
+  //   category: 'NYSpecialty',
+  //   name: '',
+  //   description: '.',
+  //   images: '/images/menu-items/ny-favorite/.webp',
+  //   size1: '',
+  //   price1: 0,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null
+  // },
 
-  {
-    id: 14,
-    category: 'NYSpecialty',
-    name: '',
-    description: '.',
-    images: '/images/menu-items/ny-favorite/.webp',
-    size1: '',
-    price1: 0,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null
-  },
+  // {
+  //   id: 14,
+  //   category: 'NYSpecialty',
+  //   name: '',
+  //   description: '.',
+  //   images: '/images/menu-items/ny-favorite/.webp',
+  //   size1: '',
+  //   price1: 0,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null
+  // },
 
 ];
