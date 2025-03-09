@@ -23,7 +23,7 @@ import '../../css/menu_page.css';
 
 const MenuItem = () => {
   return (
-    <div className=''>
+    <div>
       <div>
         <CategoryBar />
       </div>

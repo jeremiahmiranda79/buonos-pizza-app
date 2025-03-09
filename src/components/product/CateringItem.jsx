@@ -13,7 +13,7 @@ import '../../css/menu_page.css';
 
 const CateringItem = () => {
   return (
-    <div className=''>
+    <div>
       <div>
         <CategoryBar />
       </div>
@@ -34,6 +34,7 @@ const CateringItem = () => {
         <Dessert />
         <br />
       </div>
+
     </div>
   );
 };

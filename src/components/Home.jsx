@@ -11,6 +11,12 @@ const Home = () => {
     <div className='HomePage'>
       <br /><br /><br /><br /> 
 
+      <div className="Title">
+        <center>
+          <h1>Welcome to Buono's Pizza Williams Field</h1>
+        </center>
+      </div>
+
       <Information />
 
       <div className="Title">
@@ -92,7 +98,7 @@ const Home = () => {
 
       <div class="Title">
         <center>
-        <h2>Delivery Service thru 3rd party</h2>
+          <h2>Delivery Service thru 3rd party</h2>
         </center>  
       </div>
 

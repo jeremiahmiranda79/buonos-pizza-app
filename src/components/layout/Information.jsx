@@ -6,7 +6,7 @@ const Information = () => {
   return (
     <div className="InformationPage">
       <center>
-        <h1 className='Title2'>{INFORMATION[0].welcome}</h1>
+        {/* <h1 className='Title2'>{INFORMATION[0].welcome}</h1> */}
 
         <hr />
 

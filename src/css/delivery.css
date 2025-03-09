@@ -1,3 +1,15 @@
+.DeliveryPage {
+  text-align: center;
+  background-color: rgb(169, 169, 169);
+}
+
+.DeliveryPage .Title {
+  color: #ce2b37;;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: -1px 0 #000000, 0 1px black, 1px 0 black, 0 -1px black;
+  /* font-size: calc(30px + 2vmin);  */
+}
+
 .delivery {
   padding-top: 15px;
   padding-bottom: 10px;
@@ -19,9 +31,7 @@
   margin-right: 2.5px;
   width: 197px;
   height: 65px;
-  border-radius: 4px;
-
-  
+  border-radius: 4px; 
 }
 
 .btn-delivery {
@@ -32,11 +42,7 @@
   width: 65px;
   height: 65px;
   border-radius: 4px;
-
   background-color: aliceblue;
-}
-.page {
-  background-color: rgb(169, 169, 169);
 }
 
 @media (min-width: 768px) {
