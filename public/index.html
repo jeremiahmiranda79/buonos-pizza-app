@@ -50,3 +50,21 @@
     -->
   </body>
 </html>
+
+<script>
+  // Do SW registration
+  // Once the whole app loads begin with SW registration.
+  window.onload=async ()=>{
+    // Once the entire window loads
+    // Check whether SW is supported in the browser
+    if('serviceWorker' in navigator) {
+      console.log('SW suppoerted!');
+      // Register my SW
+      await navigator.serviceWorker.register('service-worker.js');
+      console.log('SW is successfully registered!');
+    }
+    else {
+      console.log('No SW supported, Time to upgrade your browser!');
+    }
+  }
+</script>
