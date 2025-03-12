@@ -10,8 +10,14 @@ import { SPECIALTY_PIZZA } from '../../constants/regularMenuItems/specialtyPizza
 const SpecialtyPizza = () => {
   return (
     <Container id={PRODUCT_CATEGORIES[1].id}>
-      <h1 className='Title'>{PRODUCT_CATEGORIES[1].name}</h1>
-      <Image src="/images/categories/pizza-special.webp" fluid className='' />
+      <h1 
+        className='Title'>{PRODUCT_CATEGORIES[1].name}
+      </h1>
+      <Image 
+        src="/images/categories/pizza-special.webp" 
+        fluid 
+        alt={PRODUCT_CATEGORIES[1].name} 
+      />
 
       <br /> <br />
 
@@ -19,22 +25,26 @@ const SpecialtyPizza = () => {
         {SPECIALTY_PIZZA.map((item) => (
           <Col key={item.id}>
             <Card  className='h-100'>
-              <Card.Img variant="top" src={item.images} />
+              <Card.Img 
+                variant="top" 
+                src={item.images} 
+                alt={item.name}
+              />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text className=''>
+                <Card.Text>
                   {item.description}
                 </Card.Text>
 
-                {item.size1 ? <Card.Text className=''>
+                {item.size1 ? <Card.Text>
                   {item.size1} ${item.price1}
                 </Card.Text> : null}
 
-                {item.size2 ? <Card.Text className=''>
+                {item.size2 ? <Card.Text>
                   {item.size2} ${item.price2}
                 </Card.Text> : null}
 
-                {item.size3 ? <Card.Text className=''>               
+                {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3}
                 </Card.Text> : null}
                 

@@ -7,19 +7,15 @@ const Specials = () => {
     <div className='SpecialsPage'>
       <br /><br /><br /><br />
 
-      <div className="Title">
-        <center>
-          <h1>Specials</h1>
-        </center>
-      </div>
+      <center>
+        <h1>Specials</h1>
+      </center>
 
       <Information />
 
-      <div className="Title">
-        <center>
-          <h2>Specialty Pizza</h2>
-        </center>
-      </div>
+      <center>
+        <h2>Specialty Pizza</h2>
+      </center>
 
       <center>
         <h4>Extra Large 18" Specialty Neapolitan Style Pizza for $27.99 plus tax.</h4>
@@ -46,11 +42,9 @@ const Specials = () => {
 
       <br />
 
-      <div className="Title">
-        <center>
-          <h2>Game Day</h2>
-        </center>
-      </div>
+      <center>
+        <h2>Game Day</h2>
+      </center>
 
       <center>
         <h4>Large 16" one topping Neapolitan pizza & 10 wings for $29.99 plus tax.</h4>
@@ -63,11 +57,9 @@ const Specials = () => {
 
       <br />
 
-      <div className="Title">
-        <center>
-          <h2>Daily Lunch Specials</h2>
-        </center>
-      </div>
+      <center>
+        <h2>Daily Lunch Specials</h2>
+      </center>
 
       <center>
         <h3>Available from opening to 4pm</h3>
@@ -91,25 +83,15 @@ const Specials = () => {
 
       <br />
 
-      {/* <center>
-        <a href="/menu-1" class="active btn btn-primary" >View our full menu here!</a>
+      <center>
+        <h2>Pizza Topping Specials</h2>
       </center>
-
-      <br /> */}
-
-      <div className="Title">
-        <center>
-          <h2>Pizza Topping Specials</h2>
-        </center>
-      </div>
 
       <center>
         <h3>All day every day</h3>
         <h4>Any 4 toppings</h4>
         <h4>$8.99</h4>
       </center>
-
-      {/* <br /> */}
 
       <center>
         <a href="/menu" class="active btn btn-primary" >View our full menu here!</a>

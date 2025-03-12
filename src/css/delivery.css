@@ -1,26 +1,8 @@
-.DeliveryPage {
-  text-align: center;
-  background-color: rgb(169, 169, 169);
-}
-
-.DeliveryPage .Title {
-  color: #ce2b37;;
-  font-family: 'Permanent Marker', cursive;
-  text-shadow: -1px 0 #000000, 0 1px black, 1px 0 black, 0 -1px black;
-  /* font-size: calc(30px + 2vmin);  */
-}
-
 .delivery {
   padding-top: 15px;
   padding-bottom: 10px;
   justify-content: center;
   padding-bottom: 10px;
-}
-
-.delivery h1 {
-  color: var(--buonos-red);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
-  font-family: var(--buonos-font);
 }
 
 .btn-delivery-main {

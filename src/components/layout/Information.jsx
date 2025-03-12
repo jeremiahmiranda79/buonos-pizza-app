@@ -1,13 +1,10 @@
 import React from 'react';
 import { INFORMATION } from '../../constants/information';
-import '../../css/information.css'
 
 const Information = () => {
   return (
     <div className="InformationPage">
       <center>
-        {/* <h1 className='Title2'>{INFORMATION[0].welcome}</h1> */}
-
         <hr />
 
         <h4>{INFORMATION[0].llc}</h4>

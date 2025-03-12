@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/about.css';
 import '../css/video_player.css';
 
 import Information from '../components/layout/Information';
@@ -9,29 +8,23 @@ const About = () => {
     <div className='AboutPage'>
       <br /><br /><br /><br />
 
-      <div className="Title">
-        <center>
-          <h1>About</h1>
-        </center>
-      </div>
+      <center>
+        <h1>About</h1>
+      </center>
 
       <Information />
 
-      <div className="Title">
-        <center>
-          <h2>About Us</h2>
-        </center>
-      </div>
+      <center>
+        <h2>About Us</h2>
+      </center>
 
       <div className='VideoPlayer'>
         <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/-yCUuy-aX80?si=Vt-eH92ZDxaQ4BbU&amp;start=603" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div> 
 
-      <div className="Title">
-        <center>
-          <h2>Meet The Team</h2>
-        </center>
-      </div>
+      <center>
+        <h2>Meet The Team</h2>
+      </center>
 
       <center>
         <h4>
@@ -39,11 +32,9 @@ const About = () => {
         </h4>
       </center>  
 
-      <div className="Title">
-        <center>
-          <h2>Dine in or take out</h2>
-        </center>
-      </div>
+      <center>
+        <h2>Dine in or take out</h2>
+      </center>
 
       <center> 
         <h4>
@@ -51,12 +42,10 @@ const About = () => {
         </h4>
       </center>
 
-      <div className="Title">
-        <center>
-          <h2>Made in store</h2>
-        </center>
-      </div>
-
+      <center>
+        <h2>Made in store</h2>
+      </center>
+      
       <center>
         <h4>
           We refuse to compromise.  We use the freshest and finest ingredients.  Our Pizza Dough is made fresh daily in house and we make our sauce in house as well.

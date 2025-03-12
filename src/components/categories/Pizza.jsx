@@ -12,7 +12,11 @@ const Pizza = () => {
     <Container id={PRODUCT_CATEGORIES[0].id}>
       <div className=''>
         <h1 className='Title'>{PRODUCT_CATEGORIES[0].name}</h1>
-        <Image src="/images/categories/pizza-cheese.webp" fluid className='' />
+        <Image 
+          src="/images/categories/pizza-cheese.webp" 
+          fluid 
+          alt={PRODUCT_CATEGORIES[0].name}
+        />
       </div>
 
       <br /> <br />
@@ -21,20 +25,24 @@ const Pizza = () => {
         {PIZZAS.map((item) => (
           <Col key={item.id}>
             <Card className='h-100'>
-              <Card.Img variant="top" src={item.images} />
+              <Card.Img 
+                variant="top" 
+                src={item.images} 
+                alt={item.name}
+              />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text className=''>
+                <Card.Text>
                   {item.description}
                 </Card.Text>
 
-                {item.size1 ? <Card.Text className=''>
+                {item.size1 ? <Card.Text>
                   {item.size1} ${item.price1}
                 </Card.Text> : null}
-                {item.size2 ? <Card.Text className=''>
+                {item.size2 ? <Card.Text>
                   {item.size2} ${item.price2}
                 </Card.Text> : null}
-                {item.size3 ? <Card.Text className=''>               
+                {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3}
                 </Card.Text> : null}
                 

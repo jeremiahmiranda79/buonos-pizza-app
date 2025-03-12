@@ -8,17 +8,11 @@ function App() {
 
   return (
     <Router>
-      <div className="">
         <Header />
-
-        <div className="">
-          <Routes>
-            {userRoutes}
-          </Routes>
-        </div>
-
+        <Routes>
+          {userRoutes}
+        </Routes>
         <Footer />
-      </div>
     </Router> 
   );
 }

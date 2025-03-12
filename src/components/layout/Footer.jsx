@@ -1,6 +1,5 @@
 import React from 'react';
 import { INFORMATION } from '../../constants/information';
-
 import '../../css/bottom_nav_bar.css';
 
 const Footer = () => {
@@ -32,22 +31,32 @@ const Footer = () => {
             href={INFORMATION[0].face_book_link}
             className="fa-brands fa-facebook fa-2xl fa-fw" 
             style={{ textDecoration: 'none', color: 'inherit' }}
-          />
+          >           
+          </a>
+          
+          
           <a 
             href={INFORMATION[0].instagram_link}
             className="fa-brands fa-square-instagram fa-2xl fa-fw" 
             style={{ textDecoration: 'none', color: 'inherit' }}
-          />
+          >
+          </a>
+          
           <a 
             href={INFORMATION[0].yelp_link}
             className="fa-brands fa-yelp fa-2xl fa-fw"
             style={{ textDecoration: 'none', color: 'inherit' }}
-          />
+          >
+          </a>
+
           <a 
             href={INFORMATION[0].google_map_link}
             className="fa-brands fa-google fa-2xl fa-fw"
             style={{ textDecoration: 'none', color: 'inherit' }}
-          /> 
+          > 
+          </a>
+
+
           <p>
             {INFORMATION[0].copy_right}
             <br />

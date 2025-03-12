@@ -1,19 +1,9 @@
-.SpecialsPage {
-  background-color: rgb(169, 169, 169);
-}
-
-.SpecialsPage .Title {
-  color: #ce2b37;;
-  font-family: 'Permanent Marker', cursive;
-  text-shadow: -1px 0 #000000, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.SpecialsPage .Image {
+.SpecialsPage img {
   width: 60%
 }
 
 @media (max-width: 450px) {
-  .SpecialsPage .Image {
+  .SpecialsPage img {
     width: 90%;
   }
 }
