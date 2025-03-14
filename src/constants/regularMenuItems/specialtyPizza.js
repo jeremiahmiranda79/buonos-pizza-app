@@ -56,7 +56,7 @@ export const SPECIALTY_PIZZA = [
   },
 
   {
-    id: 4,
+    id: 5,
     category: 'Specialty Pizza',
     name: 'Works',
     description: 'Neapolitan-style; a thin round crust topped with a fresh tomato sauce, pepperoni, sausage, mushrooms, green bell peppers, onions, mozzarella, oregano, & stone deck oven baked.',
@@ -70,7 +70,7 @@ export const SPECIALTY_PIZZA = [
   },
 
   {
-    id: 4,
+    id: 6,
     category: 'Specialty Pizza',
     name: 'Baked Ziti',
     description: 'Neapolitan-style; a thin round crust topped with a fresh tomato sauce, ricotta, ziti pasta, mozzarella, oregano, & stone deck oven baked.',

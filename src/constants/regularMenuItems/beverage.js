@@ -140,7 +140,7 @@ export const BEVERAGE = [
   },
 
   {
-    id: 3,
+    id: 11,
     category: 'Beverage',
     name: 'House White Wine',
     description: 'Must be consumed in the restaurant.',

@@ -3,26 +3,20 @@
   --second-color: #5b85ff;
   --third-color: #434354;
   --text-color: #fff;
-
   --box-shadow: 0 5px 25px rgb(2, 2, 2, 0.1);
   --text-shadow: 0 5px 25px rgb(2, 2, 2, 0.1);
 }
 
-/* ======= Main CSS ======= */
 .main-container {
   position: fixed;
-  /* top: 55px; */
   top: 85px;
   z-index: 99;
 }
 
-/* ======= Tab Navigation Bar ======= */
 .tab-nav-bar {
   position: fixed;
   width: 100%;
-  
   background-color: var(--third-color);
-  /* bottom: 100px */
 }
 
 .tab-navigation {
@@ -38,16 +32,10 @@
   color: var(--text-color);
   list-style: none;
   background: var(--third-color);
-  /* padding: 5px; */
   white-space: nowrap;
-  /* border-bottom: 1px solid black;
-  border-radius: 0px; */
-  /* box-shadow: var(--box-shadow); */
   overflow-x: auto;
   user-select: none;
   scroll-behavior: smooth;
-
-  /* width: 100%; */
   margin-bottom: 0px;
 }
 
@@ -96,7 +84,6 @@
   text-align: center;
   font-size: 41px;
   cursor: pointer;
-  /* bottom: 16.5px; */
 }
 
 .left-btn {
@@ -111,18 +98,6 @@
 }
 
 /* ======= Tab Content ======= */
-@media (max-width: 1440px) {
-  .left-btn, .right-btn {
-
-  }
-}
-
-@media (max-width: 1024px) {
-  .left-btn, .right-btn {
-
-  }
-}
-
 @media (max-width: 768px) {
   .tab-btn {
     font-size: 1.2em;

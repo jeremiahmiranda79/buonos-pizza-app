@@ -27,9 +27,9 @@ const About = () => {
       </center>
 
       <center>
-        <h4>
+        <p className='x'>
           Jimmy and family from the ORIGINAL BUONO'S are BACK.  At  BUONO'S we believe we stay true to NYC style pizza, by using fresh local ingredients. BUONO'S has been bringing New York-style pizza to Arizona since 1989!  Just like a local NYC neighborhood pizzeria.  We are an independently owned and operated pizzeria restaurant. Joining Jimmy is his fiance Shelly who is an Army Veteran and a ICU Nurse
-        </h4>
+        </p>
       </center>  
 
       <center>
@@ -37,9 +37,9 @@ const About = () => {
       </center>
 
       <center> 
-        <h4>
+        <p className='x'>
           We have worked to package our meals in a way that lets you bring the quality of our meals into your home. We always love to see you in person, but even when we can't we ensure that your dining experience is top notch!
-        </h4>
+        </p>
       </center>
 
       <center>
@@ -47,13 +47,11 @@ const About = () => {
       </center>
       
       <center>
-        <h4>
+        <p className='x'>
           We refuse to compromise.  We use the freshest and finest ingredients.  Our Pizza Dough is made fresh daily in house and we make our sauce in house as well.
-        </h4>
+        </p>
       </center>
-
-      <br />
-
+      
     </div>
   );
 };

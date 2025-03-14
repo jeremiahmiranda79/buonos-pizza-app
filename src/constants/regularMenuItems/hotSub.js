@@ -98,7 +98,7 @@ export const HOT_SUB = [
   },
 
   {
-    id: 7,
+    id: 8,
     category: 'HotSub',
     name: 'Philly Chicken',
     description: 'Foot long Italian bread with sauteed chicken breast, & onions. Topped with choice of melted cheese or cheese wiz, & lightly toasted.',

@@ -70,7 +70,7 @@ export const SALAD = [
   },
 
   {
-    id: 5,
+    id: 6,
     category: 'Salad',
     name: 'Caprese',
     description: 'Mozzarella fresca, vine-ripened tomatoes, olive oil, balsamic fig glaze, basil puree, salt, & pepper.',

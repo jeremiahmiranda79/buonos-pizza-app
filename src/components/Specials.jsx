@@ -18,8 +18,8 @@ const Specials = () => {
       </center>
 
       <center>
-        <h4>Extra Large 18" Specialty Neapolitan Style Pizza for $27.99 plus tax.</h4>
-        <h4>Please No Modifications!</h4>
+        <p className='x'>Extra Large 18" Specialty Neapolitan Style Pizza for $27.99 plus tax.</p>
+        <p className='y'>Please No Modifications!</p>
       </center>
 
       <br />
@@ -27,8 +27,8 @@ const Specials = () => {
       <center>
         <img 
           src="/images/specials/pizza-specials.jpg" 
-          alt="Paris" 
-          class="Image"
+          alt="Pizza Specials" 
+          className="Image"
         />
       </center>
 
@@ -36,7 +36,7 @@ const Specials = () => {
 
       <center>
         <a 
-          href="/menu-1" class="active btn btn-primary">View our full menu here!
+          href="/menu-1" className="active btn btn-primary">View our full menu here!
         </a>
       </center>
 
@@ -47,12 +47,12 @@ const Specials = () => {
       </center>
 
       <center>
-        <h4>Large 16" one topping Neapolitan pizza & 10 wings for $29.99 plus tax.</h4>
-        <h4>Available for dine in or take out, open to close on NFL game day's only(Sunday, Monday, Thursday).</h4>
+        <p className='x'>Large 16" one topping Neapolitan pizza & 10 wings for $29.99 plus tax.</p>
+        <p className='x'>Available for dine in or take out, open to close on NFL game day's only(Sunday, Monday, Thursday).</p>
       </center>
 
       <center>
-        <a href="/menu-1" class="active btn btn-primary">View our full menu here!</a>
+        <a href="/menu-1" className="active btn btn-primary">View our full menu here!</a>
       </center>
 
       <br />
@@ -62,23 +62,23 @@ const Specials = () => {
       </center>
 
       <center>
-        <h3>Available from opening to 4pm</h3>
-        <h5>(Fountain Drink included)</h5>
+        <p className='x'>Available from opening to 4pm</p>
+        <p className='y'>(Fountain Drink included)</p>
         
         <hr />
 
-        <h4>2 Slice of Cheese</h4>
-        <h4>$8.99</h4>
+        <p className='x'>2 Slice of Cheese</p>
+        <p className='x'>$8.99</p>
 
-        <h4>1 Slice of Cheese w/ Salad</h4>
-        <h4>$9.99</h4>
+        <p className='x'>1 Slice of Cheese w/ Salad</p>
+        <p className='x'>$9.99</p>
 
-        <h4>6 inch Cold Sub w/ Fries</h4>
-        <h4>$11.99</h4>
+        <p className='x'>6 inch Cold Sub w/ Fries</p>
+        <p className='x'>$11.99</p>
 
         <hr />
 
-        <h5>*Ask us about our all day Specials*</h5>
+        <p className='y'>*Ask us about our all day Specials*</p>
       </center>
 
       <br />
@@ -88,13 +88,13 @@ const Specials = () => {
       </center>
 
       <center>
-        <h3>All day every day</h3>
-        <h4>Any 4 toppings</h4>
-        <h4>$8.99</h4>
+        <p className='x'>All day every day</p>
+        <p className='x'>Any 4 toppings</p>
+        <p className='x'>$8.99</p>
       </center>
 
       <center>
-        <a href="/menu" class="active btn btn-primary" >View our full menu here!</a>
+        <a href="/menu" className="active btn btn-primary" >View our full menu here!</a>
       </center>
 
       <br />

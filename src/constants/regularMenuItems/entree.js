@@ -98,7 +98,7 @@ export const ENTREE = [
   },
 
   {
-    id: 7,
+    id: 8,
     category: 'Entree',
     name: 'Pasta & Saugage',
     description: 'Choice of pasta topped with marinara sauce, two sausage links, parmesan, & Italian herbs. Served with a side of pasta, small salad, & small Italian bread.',

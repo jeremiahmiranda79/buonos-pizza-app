@@ -1,6 +1,6 @@
 export const CATEGORIES_CATERING = [
   {
-    id: 0,
+    id: 1,
     name: 'Appetizer',
     included: null,
     choice: 'Choice of Marinara or Ranch Dressing',
@@ -9,7 +9,7 @@ export const CATEGORIES_CATERING = [
   },
 
   {
-    id: 1,
+    id: 2,
     name: 'Salad',
     included: null,
     choice: 'Choice of Blue Cheese, Italian, or Ranch Dressing',
@@ -18,7 +18,7 @@ export const CATEGORIES_CATERING = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: 'Pasta',
     included: 'Toasted bread included with each tray',
     choice: 'Choice of Spaghetti, Penne, or Fettucini',
@@ -27,7 +27,7 @@ export const CATEGORIES_CATERING = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: 'Entree',
     included: 'Toasted bread included with each tray',
     choice: null,
@@ -36,7 +36,7 @@ export const CATEGORIES_CATERING = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: 'Side',
     included: null,
     choice: null,
@@ -45,7 +45,7 @@ export const CATEGORIES_CATERING = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: 'Dessert',
     included: null,
     choice: null,

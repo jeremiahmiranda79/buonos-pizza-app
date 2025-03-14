@@ -24,9 +24,7 @@ import '../../css/menu_page.css';
 const MenuItem = () => {
   return (
     <div>
-      <div>
-        <CategoryBar />
-      </div>
+      <CategoryBar />
 
       <br />
 

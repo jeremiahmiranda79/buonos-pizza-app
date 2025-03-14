@@ -1,30 +1,32 @@
 import React from 'react';
 import { INFORMATION } from '../../constants/information';
 
+import '../../css/text.css';
+
 const Information = () => {
   return (
     <div className="InformationPage">
       <center>
         <hr />
 
-        <h4>{INFORMATION[0].llc}</h4>
+        <p className='x' style={{ fontWeight: 'bold' }}>{INFORMATION[0].llc}</p>
 
         <a style={{ textDecoration: 'none' }} href={INFORMATION[0].address_link} >
-          <h4 style={{ color: 'black' }}>{INFORMATION[0].address}</h4>
+          <p className='x'>{INFORMATION[0].address}</p>
         </a>
 
         <a style={{ textDecoration: 'none' }} href={INFORMATION[0].phone_link }>
-          <h4 style={{ color: 'black' }}>{INFORMATION[0].phone}</h4>
+          <p className='x'>{INFORMATION[0].phone}</p>
         </a>
 
         <a style={{ textDecoration: 'none' }} href={INFORMATION[0].email_link }>
-          <h4 style={{ color: 'black' }}>{INFORMATION[0].email}</h4>
+          <p className='x'>{INFORMATION[0].email}</p>
         </a>
 
-        <h6 style={{ color: 'black' }}>{INFORMATION[0].style}</h6>
       </center>
 
       <hr />
+      
     </div>
   );
 };
