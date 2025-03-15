@@ -1,8 +1,7 @@
 import React from 'react';
-import '../css/delivery.css';
 import Information from '../components/layout/Information';
 
-import '../css/text.css';
+import '../css/delivery.css';
 
 const Delivery = () => {
   return (

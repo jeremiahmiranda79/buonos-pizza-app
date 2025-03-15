@@ -2,8 +2,6 @@ import React from 'react';
 import { INFORMATION } from '../../constants/information';
 import '../../css/bottom_nav_bar.css';
 
-import '../../css/text.css';
-
 const Footer = () => {
   return (
     <div className='BottomNavBar'>

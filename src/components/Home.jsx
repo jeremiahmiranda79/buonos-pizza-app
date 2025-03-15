@@ -3,11 +3,9 @@ import Information from '../components/layout/Information';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../css/video_player.css';
 
-import '../css/text.css';
-
 const Home = () => {
   return (
-    <div>
+    <div className='page-color'>
       <br /><br /><br /><br /> 
 
       <center>

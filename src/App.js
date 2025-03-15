@@ -8,11 +8,11 @@ function App() {
 
   return (
     <Router>
-        <Header />
-        <Routes>
-          {userRoutes}
-        </Routes>
-        <Footer />
+      <Header />
+      <Routes>
+        {userRoutes}
+      </Routes>
+      <Footer />
     </Router> 
   );
 }

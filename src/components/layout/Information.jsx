@@ -1,8 +1,6 @@
 import React from 'react';
 import { INFORMATION } from '../../constants/information';
 
-import '../../css/text.css';
-
 const Information = () => {
   return (
     <div className="InformationPage">
