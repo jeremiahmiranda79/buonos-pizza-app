@@ -45,6 +45,7 @@ const Delivery = () => {
         </ul>
       </center>
 
+      {/* <hr /> */}
       <br />
 
       <center>
