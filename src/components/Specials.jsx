@@ -36,7 +36,7 @@ const Specials = () => {
 
       <center>
         <a 
-          href="/menu-1" className="active btn btn-primary">View our full menu here!
+          href="/menu" className="active btn btn-primary">View our full menu here!
         </a>
       </center>
 
@@ -52,7 +52,7 @@ const Specials = () => {
       </center>
 
       <center>
-        <a href="/menu-1" className="active btn btn-primary">View our full menu here!</a>
+        <a href="/menu" className="active btn btn-primary">View our full menu here!</a>
       </center>
 
       <br />

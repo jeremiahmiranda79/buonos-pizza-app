@@ -28,6 +28,12 @@ const Home = () => {
       </center>
 
       <div className="VideoPlayer">
+      ReactDOM.render(
+        <iframe 
+          frameBorder="0" 
+        />,
+        document.getElementById('container')
+      );
         <iframe 
           width="100%" 
           height="100%" 
@@ -49,7 +55,7 @@ const Home = () => {
       </center>
 
       <center>
-        <a href="/menu-1" className="active btn btn-primary" >
+        <a href="/menu" className="active btn btn-primary" >
           View our full menu here!
         </a>
       </center>
