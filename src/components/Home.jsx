@@ -28,21 +28,21 @@ const Home = () => {
       </center>
 
       <div className="VideoPlayer">
-      ReactDOM.render(
+      {/* ReactDOM.render(
         <iframe 
           frameBorder="0" 
         />,
         document.getElementById('container')
-      );
+      ); */}
         <iframe 
           width="100%" 
           height="100%" 
           src="https://www.youtube.com/embed/yaQVJVlKhPQ?si=V13N0b1yJtQaKEo9&amp;controls=0&autoplay=1&mute=1&loop=1&playlist=yaQVJVlKhPQ" 
           title="YouTube video player" 
-          frameborder="0" 
+          // frameBorder="0" 
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen 
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen 
         />
       </div>
 

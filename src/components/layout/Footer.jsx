@@ -31,7 +31,7 @@ const Footer = () => {
             href={INFORMATION[0].face_book_link}
             className="fa-brands fa-facebook fa-2xl fa-fw" 
             aria-hidden="false" 
-            tabindex="-1"
+            tabIndex="-1"
             style={{ textDecoration: 'none', color: 'inherit' }}
             alt="Face Book" 
           >           
@@ -41,7 +41,7 @@ const Footer = () => {
             href={INFORMATION[0].instagram_link}
             className="fa-brands fa-square-instagram fa-2xl fa-fw" 
             aria-hidden="false"
-            tabindex="-1" 
+            tabIndex="-1" 
             style={{ textDecoration: 'none', color: 'inherit' }}
             alt="Instagram" 
           >
@@ -51,7 +51,7 @@ const Footer = () => {
             href={INFORMATION[0].yelp_link}
             className="fa-brands fa-yelp fa-2xl fa-fw" 
             aria-hidden="false"
-            tabindex="-1"
+            tabIndex="-1"
             style={{ textDecoration: 'none', color: 'inherit' }}
             alt="Yelp" 
           >
@@ -61,7 +61,7 @@ const Footer = () => {
             href={INFORMATION[0].google_map_link}
             className="fa-brands fa-google fa-2xl fa-fw" 
             aria-hidden="false"
-            tabindex="-1"
+            tabIndex="-1"
             style={{ textDecoration: 'none', color: 'inherit' }}
             alt='Google'
           > 
