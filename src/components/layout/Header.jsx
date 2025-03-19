@@ -29,6 +29,7 @@ const Header = () => {
           <a href="/menu">Menu</a> 
           <a href="/catering">Catering</a>
           <a href="/delivery">Delivery</a>
+          <a href='/hours'>Hours</a>
           <a href="/about">About</a>
         </div>
       </nav>

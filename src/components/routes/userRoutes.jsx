@@ -6,6 +6,7 @@ import CateringItem from '../product/CateringItem';
 import Delivery from '../Delivery';
 import About from '../About';
 import Specials from '../Specials';
+import Hours from '../Hours';
 
 const userRoutes = () => {
   return (
@@ -16,10 +17,12 @@ const userRoutes = () => {
 
       <Route path='/specials' element={
         <Specials /> } />
-        
+
       <Route path='/catering' element={ <CateringItem /> } />
 
       <Route path='/delivery' element={ <Delivery /> } />
+
+      <Route path='/hours' element={ <Hours /> } />
 
       <Route path='/about' element={
         <About /> } />
