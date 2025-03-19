@@ -14,7 +14,27 @@ const Specials = () => {
       <Information />
 
       <center>
-        <h2>Specialty Pizza</h2>
+        <h2>Check Out Our Newest Pizza</h2>
+      </center>
+
+      <center>
+        <p className='x'>Try our new Margherita Stracciatella pie</p>
+        <p className='y'>XL 18" $27.99 plus tax</p>
+        <p className='y'>A "Margherita Stracciatella pizza pie" is a pizza that combines the classic Margherita pizza's simplicity with the creamy richness of stracciatella cheese, offering a delicious blend of flavors and textures.</p>
+      </center>
+
+      <center>
+        <img 
+          src="/images/specials/margheritaStracciatellaPie.jpg" 
+          alt="Pizza Specials" 
+          className="Image"
+        />
+      </center>
+
+      <br />
+
+      <center>
+        <h2>Specialty Pizza Menu</h2>
       </center>
 
       <center>
@@ -58,11 +78,11 @@ const Specials = () => {
       <br />
 
       <center>
-        <h2>Daily Lunch Specials</h2>
+        <h2>Lunch Specials</h2>
       </center>
 
       <center>
-        <p className='x'>Available from opening to 4pm</p>
+        <p className='x'>Available Monday-Friday opening to 4pm </p>
         <p className='y'>(Fountain Drink included)</p>
         
         <hr />

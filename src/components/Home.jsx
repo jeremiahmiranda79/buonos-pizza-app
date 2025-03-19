@@ -12,6 +12,13 @@ import '../css/carousel.css';
 // https://www.geeksforgeeks.org/react-bootstrap-carousel-component/
 import Carousel from 'react-bootstrap/Carousel';
 
+// import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
+
 const Home = () => {
   return (
     <div className='page-color'>
@@ -21,25 +28,18 @@ const Home = () => {
         <h1>Welcome to Buono's Pizza Williams Field</h1>
       </center>
 
-      <Information />
+      <Information className='page-color-2'/>
 
       <center>
         <h2>How we do it</h2>
       </center>
 
       <div className="VideoPlayer">
-      {/* ReactDOM.render(
-        <iframe 
-          frameBorder="0" 
-        />,
-        document.getElementById('container')
-      ); */}
         <iframe 
           width="100%" 
           height="100%" 
           src="https://www.youtube.com/embed/yaQVJVlKhPQ?si=V13N0b1yJtQaKEo9&amp;controls=0&autoplay=1&mute=1&loop=1&playlist=yaQVJVlKhPQ" 
           title="YouTube video player" 
-          // frameBorder="0" 
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen 
@@ -221,21 +221,36 @@ const Home = () => {
       <center>
         <p className='x'>With any purchase of a large, or extra-large pizza pie, you will receive a magnet. Collect 8 magnets and get a large 1 topping pizza pie for FREE!</p>
         <p className='x' style={{fontWeight: 'bold'}}>*Valid only on dine in or in person take out orders*</p>
+        <p className='y' style={{fontWeight: 'bold'}}>*Magnets are not exchangeable between different stores*</p>
       </center>  
 
-      {/* <section label="Loyalty Card">
-        <div class="body">
-          <div class="magic-card-container">
-            <div class="magic-card-1">
-              <div class="magic-card-item"></div>
-            </div> 
+    <Container>
+      <center>
+        <Row>
+          <Col xs={6} md={6}>
+            <Image 
+              src="/images/magnets/magnet-1.webp"
+              alt='single magnet'
+              width="80%"
+              fluid
+              thumbnail 
+            />
+          </Col>
 
-            <div class="magic-card-2">
-              <div class="magic-card-item"></div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+          <Col xs={6} md={6}>
+            <Image 
+              src="/images/magnets/magnet-full-2.webp"
+              alt='full 8 piece magnet'
+              width="80%"
+              fluid
+              thumbnail 
+            />
+          </Col>
+        </Row>
+      </center>
+    </Container>
+
+    <br />
 
       <center>
         <h2>Take Out Or Dine In</h2>

@@ -14,6 +14,9 @@ const userRoutes = () => {
 
       <Route path='/menu' element={ <MenuItem /> } />
 
+      <Route path='/specials' element={
+        <Specials /> } />
+        
       <Route path='/catering' element={ <CateringItem /> } />
 
       <Route path='/delivery' element={ <Delivery /> } />
@@ -21,8 +24,6 @@ const userRoutes = () => {
       <Route path='/about' element={
         <About /> } />
 
-      <Route path='/specials' element={
-        <Specials /> } />
     </>
   );
 };

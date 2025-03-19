@@ -1,9 +1,12 @@
 import React from 'react';
 import { INFORMATION } from '../../constants/information';
 
+// import '../../css/nav-bar-2.css';
+
+
 const Information = () => {
   return (
-    <div className="InformationPage">
+    <div className="background-color: rgb(218, 207, 207);">
       <center>
         <hr />
 

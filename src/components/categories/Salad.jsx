@@ -35,15 +35,15 @@ const Salad = () => {
                 </Card.Text>
 
                 {item.size1 ? <Card.Text>
-                  {item.size1} ${item.price1}
+                  {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
 
                 {item.size2 ? <Card.Text>
-                  {item.size2} ${item.price2}
+                  {item.size2} ${item.price2.toFixed(2)}
                 </Card.Text> : null}
 
                 {item.size3 ? <Card.Text>               
-                  {item.size3} ${item.price3}
+                  {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
                 
               </Card.Body>

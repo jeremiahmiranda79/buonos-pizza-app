@@ -25,11 +25,11 @@ const Header = () => {
               <img src="/images/icons-logos/Fulldecal.png" alt="Buonos logo" />
           </a> 
           <a href="/">Home</a> 
+          <a href="/specials">Specials</a>   
           <a href="/menu">Menu</a> 
           <a href="/catering">Catering</a>
           <a href="/delivery">Delivery</a>
           <a href="/about">About</a>
-          <a href="/specials">Specials</a>   
         </div>
       </nav>
     </div>
