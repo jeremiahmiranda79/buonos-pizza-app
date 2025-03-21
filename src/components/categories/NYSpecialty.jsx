@@ -7,6 +7,10 @@ import Container from 'react-bootstrap/Container';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { NY_SPECIALTY } from '../../constants/regularMenuItems/nySpecialty';
 
+
+
+
+
 const NYSpecialty = () => {
   return (
     <Container id={PRODUCT_CATEGORIES[15].id}>
@@ -45,7 +49,7 @@ const NYSpecialty = () => {
                 {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
-                
+ 
               </Card.Body>
             </Card>
           </Col>

@@ -1,29 +1,29 @@
 export const GLUTEN_FREE = [
   {
     id: 1,
-    category: '',
-    name: 'Napolitana',
-    description: 'Neapolitan-style; a thin round crust topped with a fresh tomato sauce, mozzarella, oregano, & stone deck oven baked.',
-    images: '/images/menu-items/pizza/regular-neopolitan.webp',
-    size1: 'Small 14 inch, 6 cut',
-    price1: 15.99,
-    size2: 'Large 16 inch, 8 cut',
-    price2: 17.99,
-    size3: 'Extra Large 18 inch, 8 cut',
-    price3: 19.99
+    category: 'Pizza',
+    name: 'Cauliflower',
+    description: 'Cauliflower-style; a thin, round 10 inch pizza crust that is a gluten-free, vegan recipe.',
+    images: '/images/menu-items/pizza/gluten-free-cauliflower.webp',
+    size1: 'Small 10 inch, 4 cut',
+    price1: 13.49,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null
   },
 
   {
     id: 2, 
     category: 'Pizza',
-    name: 'White',
-    description: 'Neapolitan-style; a thin round crust topped with garlic, butter, ricotta, mozzarella, & stone deck oven baked.',
-    images: '/images/menu-items/pizza/regular-white.webp',
-    size1: 'Small 14 inch, 6 cut',
-    price1: 17.99,
-    size2: 'Large 16 inch, 8 cut',
-    price2: 19.99,
-    size3: 'Extra Large 18 inch, 8 cut',
-    price3: 21.99
+    name: 'Gluten Free',
+    description: 'Gluten free-style; a thin, round 12 inch pizza crust that is a combination of gluten free flours & starches.',
+    images: '/images/menu-items/pizza/gluten-free-gluten-free.webp',
+    size1: 'Small 12 inch, 6 cut',
+    price1: 13.49,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null
   },
 ];
