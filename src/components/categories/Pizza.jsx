@@ -88,7 +88,7 @@ const Pizza = () => {
 
                 <div className='mt-auto'>
                   <Button  variant="primary" onClick={() => setModalShow(true)}>
-                    See wing sauce choices
+                  See topping choices
                   </Button>
                 </div>
 
