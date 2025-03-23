@@ -10,7 +10,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -24,7 +26,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -39,7 +43,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -54,7 +60,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -69,7 +77,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -84,7 +94,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -99,7 +111,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -114,7 +128,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -129,7 +145,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -144,7 +162,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
   
   {
@@ -159,7 +179,9 @@ export const APPETIZER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: false
   },
 
   {
@@ -174,7 +196,9 @@ export const APPETIZER = [
     size2: 'Ten piece',
     price2: 14.99,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: true
   },
 
   {
@@ -189,6 +213,8 @@ export const APPETIZER = [
     size2: 'Ten piece',
     price2: 11.25,
     size3: null,
-    price3: null
+    price3: null,
+
+    isWings: true
   },
 ];

@@ -6,8 +6,47 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { APPETIZER } from '../../constants/regularMenuItems/appetizer';
+import { SAUCE_WINGS } from '../../constants/sauceWings';
+
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Wing Sauces
+        </Modal.Title>
+      </Modal.Header>
+      
+      <Modal.Body>
+        <h4>
+          Wing sauce choices <br />
+        </h4>
+
+        <ul>
+          {SAUCE_WINGS.map((sauce) => (
+              <li>
+                {sauce.name}
+              </li>
+            ))
+          }
+        </ul>
+
+      </Modal.Body>
+    </Modal>
+  );
+};
 
 const Appetizer = () => {
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <Container id={PRODUCT_CATEGORIES[4].id}>
       <h1 className='Title'>{PRODUCT_CATEGORIES[4].name}</h1>
@@ -45,6 +84,17 @@ const Appetizer = () => {
                 {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
+
+                {item.isWings && <div className='mt-auto'>
+                  <Button  variant="primary" onClick={() => setModalShow(true)}>
+                    See wing sauce choices
+                  </Button>
+                </div>}
+
+                <MyVerticallyCenteredModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
                 
               </Card.Body>
             </Card>

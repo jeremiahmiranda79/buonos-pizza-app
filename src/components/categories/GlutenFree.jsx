@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { GLUTEN_FREE } from '../../constants/regularMenuItems/glutenFree';
+import { TOPPINGS_PIZZA } from '../../constants/toppingsPizza';
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -25,40 +26,20 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       
       <Modal.Body>
-        <p>     
-          Additional gluten free pizza toppings are sold by the each <br />
-          Anchovy - $1.75 <br />
-          Bacon - $1.75 <br />
-          Banana Peppers - $1.75 <br />
-          Basil Puree - $1.75 <br />
-          Green Bell Peppers - $1.75 <br />
-          Broccoli - $1.75 <br />
-          Garlic - $1.75 <br />
-          Ham - $1.75 <br />
-          Jalapenos - $1.75 <br />
-          Meatballs - $1.75 <br />
-          Mushrooms - $1.75 <br />
-          Olives - $1.75 <br />
-          Onions - $1.75 <br />
-          Pepperoni - $1.75 <br />
-          Pepperoncini - $1.75 <br />
-          Pineapple - $1.75 <br />
-          Roasted Red Pepper - $1.75 <br />
-          Sausage - $1.75 <br />
-          Spinach - $1.75 <br />
-          Salami - $1.75 <br />
-          Tomato - $1.75 <br />
-          Capicola - $3.50 <br />
-          Chicken Cutlet - $3.50 <br />
-          Eggplant - $3.50 <br />
-          Soppressata - $3.50 <br />
-        </p>
+        <h4>
+          Gluten free pizza toppings are sold by the each
+        </h4>
+
+        <ul>
+          {TOPPINGS_PIZZA.map((topping) => (
+              <li>
+                {topping.name} - ${topping.priceGlutenFree.toFixed(2)}
+              </li>
+            ))
+          }
+        </ul>
+        
       </Modal.Body>
-
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-
     </Modal>
   );
 };

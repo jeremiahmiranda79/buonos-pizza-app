@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { PIZZAS } from '../../constants/regularMenuItems/pizza';
+import { TOPPINGS_PIZZA } from '../../constants/toppingsPizza';
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -20,45 +21,25 @@ function MyVerticallyCenteredModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Toppings
+          Pizza Toppings
         </Modal.Title>
       </Modal.Header>
       
       <Modal.Body>
-        <p>     
-          Additional pizza toppings are sold by the each <br />
-          Anchovy - (Full: $2.75) (Half: $1.50) <br />
-          Bacon - (Full: $2.75) (Half: $1.50) <br />
-          Banana Peppers - (Full: $2.75) (Half: $1.50) <br />
-          Basil Puree - (Full: $2.75) (Half: $1.50) <br />
-          Green Bell Peppers - (Full: $2.75) (Half: $1.50) <br />
-          Broccoli - (Full: $2.75) (Half: $1.50) <br />
-          Garlic - (Full: $2.75) (Half: $1.50) <br />
-          Ham - (Full: $2.75) (Half: $1.50) <br />
-          Jalapenos - (Full: $2.75) (Half: $1.50) <br />
-          Meatballs - (Full: $2.75) (Half: $1.50) <br />
-          Mushrooms - (Full: $2.75) (Half: $1.50) <br />
-          Olives - (Full: $2.75) (Half: $1.50) <br />
-          Onions - (Full: $2.75) (Half: $1.50) <br />
-          Pepperoni - (Full: $2.75) (Half: $1.50) <br />
-          Pepperoncini - (Full: $2.75) (Half: $1.50) <br />
-          Pineapple - (Full: $2.75) (Half: $1.50) <br />
-          Roasted Red Pepper - (Full: $2.75) (Half: $1.50) <br />
-          Sausage - (Full: $2.75) (Half: $1.50) <br />
-          Spinach - (Full: $2.75) (Half: $1.50) <br />
-          Salami - (Full: $2.75) (Half: $1.50) <br />
-          Tomato - (Full: $2.75) (Half: $1.50) <br />
-          Capicola - (Full: $5.25) (Half: $2.75) <br />
-          Chicken Cutlet - (Full: $5.25) (Half: $2.75) <br />
-          Eggplant - (Full: $5.25) (Half: $2.75) <br />
-          Soppressata - (Full: $5.25) (Half: $2.75) <br />
-        </p>
+        <h4>
+          Pizza toppings are sold by the each <br />
+        </h4>
+
+        <ul>
+          {TOPPINGS_PIZZA.map((topping) => (
+              <li>
+                {topping.name} - Full: ${topping.priceFull.toFixed(2)} Half: ${topping.priceHalf.toFixed(2)}
+              </li>
+            ))
+          }
+        </ul>
+
       </Modal.Body>
-
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-
     </Modal>
   );
 };
@@ -95,8 +76,6 @@ const Pizza = () => {
                   {item.description}
                 </Card.Text>
 
-                
-
                 {item.size1 ? <Card.Text>
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
@@ -109,7 +88,7 @@ const Pizza = () => {
 
                 <div className='mt-auto'>
                   <Button  variant="primary" onClick={() => setModalShow(true)}>
-                    See topping choices
+                    See wing sauce choices
                   </Button>
                 </div>
 

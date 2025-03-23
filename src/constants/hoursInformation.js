@@ -25,5 +25,6 @@ export const HOURS_INFORMATION = [
 
   {
     date: 'Saturday 11 am - 10 pm'
-  }
+  },
+  
 ];

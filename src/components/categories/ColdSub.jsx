@@ -28,6 +28,7 @@ const ColdSub = () => {
                 src={item.images} 
                 alt={item.name}
               />
+              
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
                 <Card.Text>
