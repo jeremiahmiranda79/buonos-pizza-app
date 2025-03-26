@@ -86,7 +86,7 @@ const HotSub = () => {
 
                 <div className='mt-auto'>
                   <Button  variant="primary" onClick={() => setModalShow(true)}>
-                    See pasta choices
+                    Topping choices
                   </Button>
                 </div>
 
