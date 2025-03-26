@@ -6,8 +6,46 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { HOT_SUB } from '../../constants/regularMenuItems/hotSub';
+import { TOPPING_HOT_SUB } from '../../constants/toppingsHotSub';
+
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Hot Sub Toppings
+        </Modal.Title>
+      </Modal.Header>
+      
+      <Modal.Body>
+        <h4>
+          Extra toppings are sold by the each <br />
+        </h4>
+
+        <ul>
+          {TOPPING_HOT_SUB.map((topping) => (
+            <li>
+              {topping.name} - ${topping.price}
+            </li>
+          ))}
+        </ul>
+
+      </Modal.Body>
+    </Modal>
+  );
+};
 
 const HotSub = () => {
+  const [modalShow, setModalShow] = React.useState(false);
+  
   return (
     <Container id={PRODUCT_CATEGORIES[10].id}>
       <h1 className='Title'>{PRODUCT_CATEGORIES[10].name}</h1>
@@ -45,6 +83,17 @@ const HotSub = () => {
                 {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
+
+                <div className='mt-auto'>
+                  <Button  variant="primary" onClick={() => setModalShow(true)}>
+                    See pasta choices
+                  </Button>
+                </div>
+
+                <MyVerticallyCenteredModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
                 
               </Card.Body>
             </Card>

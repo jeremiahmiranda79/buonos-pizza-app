@@ -10,7 +10,9 @@ export const SIDE_ORDER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isPasta: true
   },
 
   {
@@ -24,7 +26,9 @@ export const SIDE_ORDER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isPasta: true
   },
 
   {
@@ -38,7 +42,9 @@ export const SIDE_ORDER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isPasta: true
   },
 
   {
@@ -52,7 +58,9 @@ export const SIDE_ORDER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isPasta: false
   },
 
   {
@@ -66,7 +74,9 @@ export const SIDE_ORDER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isPasta: false
   },
 
   {
@@ -80,7 +90,9 @@ export const SIDE_ORDER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isPasta: false
   },
 
   {
@@ -94,6 +106,8 @@ export const SIDE_ORDER = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isPasta: false
   },
 ];

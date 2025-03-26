@@ -10,7 +10,9 @@ export const SALAD = [
     size2: 'Large, serves two-three',
     price2: 7.99,
     size3: null,
-    price3: null
+    price3: null,
+
+    isSaladDressing: true
   },
 
   {
@@ -24,7 +26,9 @@ export const SALAD = [
     size2: 'Large, serves two-three',
     price2: 7.99,
     size3: null,
-    price3: null
+    price3: null,
+
+    isSaladDressing: true
   },
 
   {
@@ -38,7 +42,9 @@ export const SALAD = [
     size2: 'Large, serves two-three',
     price2: 11.99,
     size3: null,
-    price3: null
+    price3: null,
+
+    isSaladDressing: true
   },
 
   {
@@ -52,7 +58,9 @@ export const SALAD = [
     size2: 'Large, serves two-three',
     price2: 11.99,
     size3: null,
-    price3: null
+    price3: null,
+
+    isSaladDressing: true
   },
 
   {
@@ -66,7 +74,9 @@ export const SALAD = [
     size2: 'Large, serves two-three',
     price2: 11.99,
     size3: null,
-    price3: null
+    price3: null,
+
+    isSaladDressing: true
   },
 
   {
@@ -80,7 +90,9 @@ export const SALAD = [
     size2: 'Large, serves two-three',
     price2: 8.49,
     size3: null,
-    price3: null
-  },
+    price3: null,
 
+    isSaladDressing: false
+  },
+  
 ];

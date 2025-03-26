@@ -104,7 +104,7 @@ export const NY_SPECIALTY = [
     description: 'Premium Italian natural ricotta cheese. A New York favorite.',
     images: '/images/menu-items/ny-favorite/polly-o-ricotta.webp',
     size1: '5 lb',
-    price1: 0,
+    price1: NaN,
     size2: null,
     price2: null,
     size3: null,

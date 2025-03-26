@@ -10,7 +10,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: true
   },
 
   {
@@ -24,7 +26,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -38,7 +42,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -52,7 +58,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -66,7 +74,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -80,7 +90,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -94,7 +106,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -108,7 +122,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -122,7 +138,9 @@ export const BEVERAGE = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -136,7 +154,9 @@ export const BEVERAGE = [
     size2: 'By the bottle',
     price2: 26.00,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
   {
@@ -150,7 +170,9 @@ export const BEVERAGE = [
     size2: 'By the bottle',
     price2: 26.00,
     size3: null,
-    price3: null
+    price3: null,
+
+    isFountain: false
   },
 
 ];

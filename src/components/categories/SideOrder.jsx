@@ -6,8 +6,46 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { SIDE_ORDER } from '../../constants/regularMenuItems/sideOrder';
+import { PASTA_CHOICE } from '../../constants/pastaChoices';
+
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Pastas
+        </Modal.Title>
+      </Modal.Header>
+      
+      <Modal.Body>
+        <h4>
+          Pasta choices<br />
+        </h4>
+
+        <ul>
+          {PASTA_CHOICE.map((pasta) => (
+            <li>
+              {pasta.name}
+            </li>
+          ))}
+        </ul>
+
+      </Modal.Body>
+    </Modal>
+  );
+};
 
 const SideOrder = () => {
+  const [modalShow, setModalShow] = React.useState(false);
+  
   return (
     <Container id={PRODUCT_CATEGORIES[12].id}>
       <h1 className='Title'>{PRODUCT_CATEGORIES[12].name}</h1>
@@ -45,6 +83,17 @@ const SideOrder = () => {
                 {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
+
+                {item.isPasta && <div className='mt-auto'>
+                  <Button  variant="primary" onClick={() => setModalShow(true)}>
+                    See pasta choices
+                  </Button>
+                </div>}
+
+                <MyVerticallyCenteredModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
                 
               </Card.Body>
             </Card>
