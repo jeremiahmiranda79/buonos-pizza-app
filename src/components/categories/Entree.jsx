@@ -8,7 +8,6 @@ import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesR
 import { ENTREE } from '../../constants/regularMenuItems/entree';
 import { PASTA_CHOICE } from '../../constants/pastaChoices';
 import { DRESSING_SALAD } from '../../constants/dressingSalad';
-
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -24,20 +23,14 @@ function MyVerticallyCenteredModal(props) {
         <Modal.Title id="contained-modal-title-vcenter">
           Pastas
         </Modal.Title>
-      </Modal.Header>
-      
+      </Modal.Header>      
       <Modal.Body>
-        <h4>
-          Pasta choices<br />
-        </h4>
+        <h4>Pasta choices<br /></h4>
         <ul>
           {PASTA_CHOICE.map((pasta) => (
-            <li>
-              {pasta.name}
-            </li>
+            <li>{pasta.name}</li>
           ))}
         </ul>
-
       </Modal.Body>
     </Modal>
   );
@@ -55,21 +48,13 @@ function MyVerticallyCenteredModal2(props) {
         <Modal.Title id="contained-modal-title-vcenter">
           Salad Choices
         </Modal.Title>
-      </Modal.Header>
-      
+      </Modal.Header>      
       <Modal.Body>
-
-        <h4>
-          Choose our House or a Caesar salad <br />
-        </h4>
-
-        <h6>Extra sides of dressings are sold by the each <br /></h6>
-
+        <h4>Choose our House or a Caesar salad<br /></h4>
+        <h6>Extra sides of dressings are sold by the each<br /></h6>
         <ul>
           {DRESSING_SALAD.map((dressing) => (
-            <li>
-              {dressing.name} - First one free. All extra dressings: ${dressing.price3oz.toFixed(2)}
-            </li>
+            <li>{dressing.name} - First one free. All extra dressings: ${dressing.price3oz.toFixed(2)}</li>
           ))}
         </ul>
 
@@ -80,7 +65,6 @@ function MyVerticallyCenteredModal2(props) {
 
 const Entree = () => {
   const [modalShow, setModalShow] = React.useState(false);
-
   const [modalShow2, setModalShow2] = React.useState(false);
 
   return (
@@ -91,9 +75,7 @@ const Entree = () => {
         fluid 
         alt={PRODUCT_CATEGORIES[9].name}
       />
-
-      <br /> <br />
-
+      <br /><br />
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {ENTREE.map((item) => (
           <Col key={item.id}>
@@ -103,25 +85,20 @@ const Entree = () => {
                 src={item.images} 
                 alt={item.name}
               />
-
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
                 <Card.Text>
                   {item.description}
                 </Card.Text>
-
                 {item.size1 ? <Card.Text>
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
-
                 {item.size2 ? <Card.Text>
                   {item.size2} ${item.price2.toFixed(2)}
                 </Card.Text> : null}
-
                 {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
-
                 {item.isPasta && <div className='mt-auto'>
                   <Button  variant="primary" onClick={() => setModalShow(true)}>
                     See pasta choices
@@ -132,20 +109,16 @@ const Entree = () => {
                   show={modalShow}
                   onHide={() => setModalShow(false)}
                 />
-
                 <br />
-
                 <div className='mt-auto'>
                   <Button  variant="primary" onClick={() => setModalShow2(true)}>
                     See salad options
                   </Button>
                 </div>
-
                 <MyVerticallyCenteredModal2
                   show={modalShow2}
                   onHide={() => setModalShow2(false)}
                 />
-                
               </Card.Body>
             </Card>
           </Col>

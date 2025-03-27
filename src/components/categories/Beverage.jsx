@@ -7,7 +7,6 @@ import Container from 'react-bootstrap/Container';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { BEVERAGE } from '../../constants/regularMenuItems/beverage';
 import { FOUNTAIN_DRINKS } from '../../constants/fountainDrinks';
-
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -20,23 +19,15 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Beverages
-        </Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">Beverages</Modal.Title>
       </Modal.Header>
-      
       <Modal.Body>
-        <h4>
-          Beverage choices<br />
-        </h4>
+        <h4>Beverage choices<br /></h4>
         <ul>
           {FOUNTAIN_DRINKS.map((drink) => (
-            <li>
-              {drink.name}
-            </li>
+            <li>{drink.name}</li>
           ))}
         </ul>
-
       </Modal.Body>
     </Modal>
   );
@@ -44,7 +35,6 @@ function MyVerticallyCenteredModal(props) {
 
 const Beverage = () => {
   const [modalShow, setModalShow] = React.useState(false);
-
   return (
     <Container id={PRODUCT_CATEGORIES[14].id}>
       <h1 className='Title'>{PRODUCT_CATEGORIES[14].name}</h1>
@@ -53,9 +43,7 @@ const Beverage = () => {
         fluid 
         alt={PRODUCT_CATEGORIES[14].name} 
       />
-
-      <br /> <br />
-
+      <br /><br />
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {BEVERAGE.map((item) => (
           <Col key={item.id}>
@@ -67,33 +55,25 @@ const Beverage = () => {
               />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>
-                  {item.description}
-                </Card.Text>
-
+                <Card.Text>{item.description}</Card.Text>
                 {item.size1 ? <Card.Text>
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
-
                 {item.size2 ? <Card.Text>
                   {item.size2} ${item.price2.toFixed(2)}
                 </Card.Text> : null}
-
                 {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
-
                 {item.isFountain && <div className='mt-auto'>
                   <Button  variant="primary" onClick={() => setModalShow(true)}>
-                    See pasta choices
+                    See drink choices
                   </Button>
                 </div>}
-
                 <MyVerticallyCenteredModal
                   show={modalShow}
                   onHide={() => setModalShow(false)}
-                />
-                
+                />      
               </Card.Body>
             </Card>
           </Col>

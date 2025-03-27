@@ -16,9 +16,7 @@ const ColdSub = () => {
         fluid 
         alt={PRODUCT_CATEGORIES[11].name}
       />
-
       <br /> <br />
-
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {COLD_SUB.map((item) => (
           <Col key={item.id}>
@@ -28,25 +26,18 @@ const ColdSub = () => {
                 src={item.images} 
                 alt={item.name}
               />
-              
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>
-                  {item.description}
-                </Card.Text>
-
+                <Card.Text>{item.description}</Card.Text>
                 {item.size1 ? <Card.Text>
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
-
                 {item.size2 ? <Card.Text>
                   {item.size2} ${item.price2.toFixed(2)}
                 </Card.Text> : null}
-
                 {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3.toFixed(2)}
-                </Card.Text> : null}
-                
+                </Card.Text> : null}                
               </Card.Body>
             </Card>
           </Col>

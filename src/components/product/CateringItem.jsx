@@ -18,7 +18,7 @@ const CateringItem = () => {
         <CategoryBar />
       </div>
 
-      <br />
+      {/* <br /> */}
 
       <div className='MenuPage'>
         <Appetizer />

@@ -4,12 +4,11 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { PIZZAS } from '../../constants/regularMenuItems/pizza';
 import { TOPPINGS_PIZZA } from '../../constants/toppingsPizza';
-
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -20,25 +19,17 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Pizza Toppings
-        </Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">Pizza Toppings</Modal.Title>
       </Modal.Header>
-      
       <Modal.Body>
-        <h4>
-          Pizza toppings are sold by the each <br />
-        </h4>
-
+        <h4>Pizza toppings are sold by the each<br /></h4>
         <ul>
           {TOPPINGS_PIZZA.map((topping) => (
-              <li>
-                {topping.name} - Full: ${topping.priceFull.toFixed(2)} Half: ${topping.priceHalf.toFixed(2)}
-              </li>
-            ))
-          }
+            <li>
+              {topping.name} - Full: ${topping.priceFull.toFixed(2)} Half: ${topping.priceHalf.toFixed(2)}
+            </li>
+          ))}
         </ul>
-
       </Modal.Body>
     </Modal>
   );
@@ -46,7 +37,6 @@ function MyVerticallyCenteredModal(props) {
 
 const Pizza = () => {
   const [modalShow, setModalShow] = React.useState(false);
-
   return (
     <Container id={PRODUCT_CATEGORIES[0].id}>
       <div className=''>
@@ -57,9 +47,7 @@ const Pizza = () => {
           alt={PRODUCT_CATEGORIES[0].name}
         />
       </div>
-
       <br /> <br />
-
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {PIZZAS.map((item) => (
           <Col key={item.id}>
@@ -69,13 +57,9 @@ const Pizza = () => {
                 src={item.images} 
                 alt={item.name}
               />
-
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>
-                  {item.description}
-                </Card.Text>
-
+                <Card.Text>{item.description}</Card.Text>
                 {item.size1 ? <Card.Text>
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
@@ -85,18 +69,15 @@ const Pizza = () => {
                 {item.size3 ? <Card.Text>               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
-
                 <div className='mt-auto'>
                   <Button  variant="primary" onClick={() => setModalShow(true)}>
-                  See topping choices
+                    See topping choices
                   </Button>
                 </div>
-
                 <MyVerticallyCenteredModal
                   show={modalShow}
                   onHide={() => setModalShow(false)}
-                />
-                
+                />      
               </Card.Body>
             </Card>
           </Col>

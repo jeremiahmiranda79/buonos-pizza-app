@@ -5,7 +5,6 @@ import useUserRoutes from './components/routes/userRoutes';
 
 function App() {
   const userRoutes = useUserRoutes();
-
   return (
     <Router>
       <Header />

@@ -1,11 +1,8 @@
 .wrapper {
-  position: relative;
   height: 600px;
   width: 1200px;
-
   margin-bottom: 20px;
 }
-
 
 @media (max-width: 425px) {
   .wrapper {
