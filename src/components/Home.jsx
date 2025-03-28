@@ -31,6 +31,8 @@ const Home = () => {
       <p className='x' style={{ textAlign: 'center' }}>Our classic pizza's are so fresh, we have to slap them!</p>
       <p style={{ textAlign: 'center' }}><a href="/menu" className="active btn btn-primary">View our full menu here!</a></p>
       <center>
+      {/* https://developer.mozilla.org/en-US/blog/fix-image-lcp/ */}
+      {/* https://stackoverflow.com/questions/54407116/bootstrap-carousel-image-size */}
         <Carousel >
           <Carousel.Item>
             <div className='wrapper' >
@@ -113,7 +115,6 @@ const Home = () => {
                 thumbnail 
               />
             </Col>
-
             <Col xs={6} md={6}>
               <Image 
                 src="/images/magnets/magnet-full-2.webp"
@@ -126,7 +127,6 @@ const Home = () => {
           </Row>
         </center>
       </Container>
-
       <h2 style={{ textAlign: 'center' }}>Take Out Or Dine In</h2>
       <p className='x' style={{ textAlign: 'center' }}>Come see us in person! To take full advantage of our quality the best option is to dine in, or reserve an in store pick up order. We love our customers so feel free to visit during our normal business hours.</p>
       <p style={{ textAlign: 'center' }}><a href="/specials" className="active btn btn-primary" >View our menu options here!</a></p>

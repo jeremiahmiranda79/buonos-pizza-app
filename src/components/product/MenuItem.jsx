@@ -26,6 +26,7 @@ const MenuItem = () => {
     <div>
       <CategoryBar />
       <div className='MenuPage'>
+        <br />
         <Pizza/>
         <br />
         <SpecialtyPizza />

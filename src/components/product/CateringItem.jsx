@@ -21,6 +21,7 @@ const CateringItem = () => {
       {/* <br /> */}
 
       <div className='MenuPage'>
+        <br />
         <Appetizer />
         <br />
         <Salad />
