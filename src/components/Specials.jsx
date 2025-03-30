@@ -21,6 +21,8 @@ const Specials = () => {
         <p className='x'>Try our new Margherita Stracciatella pie</p>
         <p className='y'>XL 18" $27.99 plus tax</p>
         <p className='y'>A "Margherita Stracciatella pizza pie" is a pizza that combines the classic Margherita pizza's simplicity with the creamy richness of stracciatella cheese, offering a delicious blend of flavors and textures.</p>
+
+        <p className='x' style={{fontWeight: 'bold'}}>* Available in house only! *</p>
       </center>
 
       <center>
