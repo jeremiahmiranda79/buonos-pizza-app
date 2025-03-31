@@ -4,123 +4,65 @@ import  '../css/specials.css';
 
 const Specials = () => {
   return (
-    <div className='SpecialsPage'>
-      <br /><br /><br /><br />
-
-      <center>
-        <h1>Specials</h1>
-      </center>
-
+    <div className='SpecialsPage' style={{ margin: '100px 10px 10px 10px' }} >
+      <h1 rel="preload" style={{ textAlign: 'center' }}>Specials</h1>
       <Information />
-
-      <center>
-        <h2>Check Out Our Newest Pizza</h2>
-      </center>
-
-      <center>
-        <p className='x'>Try our new Margherita Stracciatella pie</p>
-        <p className='y'>XL 18" $27.99 plus tax</p>
-        <p className='y'>A "Margherita Stracciatella pizza pie" is a pizza that combines the classic Margherita pizza's simplicity with the creamy richness of stracciatella cheese, offering a delicious blend of flavors and textures.</p>
-
-        <p className='x' style={{fontWeight: 'bold'}}>* Available in house only! *</p>
-      </center>
-
-      <center>
+      <p className='y' style={{ textAlign: 'center', fontWeight: 'bold' }}>*Ask us about our all day Specials*</p>
+      <h2 style={{ textAlign: 'center' }}>Check Out Our Newest Pizza</h2>
+      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Try our new Margherita Stracciatella pie</p>
+      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>XL 18" $27.99 plus tax</p>
+      <p className='y' style={{ textAlign: 'center', marginBottom: '0px' }}>A "Margherita Stracciatella pizza pie" is a pizza that combines the classic Margherita pizza's simplicity with the creamy richness of stracciatella cheese, offering a delicious blend of flavors and textures.</p>
+      <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only! *</p>
+      <p style={{ textAlign: 'center' }}>
         <img 
           src="/images/specials/margheritaStracciatellaPie.jpg" 
-          alt="Pizza Specials" 
+          alt="margherita stracciatella pizza" 
           className="Image"
         />
-      </center>
-
-      <br />
-
-      <center>
-        <h2>Specialty Pizza Menu</h2>
-      </center>
-
-      <center>
-        <p className='x'>Extra Large 18" Specialty Neapolitan Style Pizza for $27.99 plus tax.</p>
-        <p className='y'>Please No Modifications!</p>
-      </center>
-
-      <br />
-
-      <center>
+      </p>
+      <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Specialty Pizza Menu</h2>
+      <p className='x' style={{ textAlign: 'center', marginTop: '10px', marginBottom: '0px' }}>Extra Large 18" Specialty Neapolitan Style Pizza for $27.99 plus tax.</p>
+      <p className='y' style={{ textAlign: 'center', marginTop: '10px', fontWeight: 'bold' }}>* Please No Modifications! *</p>
+      <p style={{ textAlign: 'center', marginTop: '10px' }}>
         <img 
           src="/images/specials/pizza-specials.jpg" 
-          alt="Pizza Specials" 
+          alt="pizza specials menu" 
           className="Image"
         />
-      </center>
-
-      <br />
-
-      <center>
+      </p>
+      <p style={{ textAlign: 'center', marginTop: '10px' }}>
         <a 
           href="/menu" className="active btn btn-primary">View our full menu here!
         </a>
-      </center>
-
-      <br />
-
-      <center>
-        <h2>Game Day</h2>
-      </center>
-
-      <center>
-        <p className='x'>Large 16" one topping Neapolitan pizza & 10 wings for $29.99 plus tax.</p>
-        <p className='x'>Available for dine in or take out, open to close on NFL game day's only(Sunday, Monday, Thursday).</p>
-      </center>
-
-      <center>
+      </p>
+      <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Game Day</h2>
+      <p className='x' style={{ textAlign: 'center' }}>Large 16" one topping Neapolitan pizza & 10 wings for $29.99 plus tax.</p>
+      <p className='x' style={{ textAlign: 'center' }}>Available for dine in or take out, open to close on NFL game day's only(Sunday, Monday, Thursday).</p>
+      <p style={{ textAlign: 'center', marginTop: '10px' }}>
         <a href="/menu" className="active btn btn-primary">View our full menu here!</a>
-      </center>
-
-      <br />
-
-      <center>
-        <h2>Lunch Specials</h2>
-      </center>
-
-      <center>
-        <p className='x'>Available Monday-Friday opening to 4pm </p>
+      </p>
+      <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Lunch Specials</h2>
+      <div style={{ textAlign: 'center', marginTop: '10px' }}>
+        <p className='x' style={{ marginBottom: '0px' }}>Available Monday-Friday opening to 4pm </p>
         <p className='y'>(Fountain Drink included)</p>
-        
         <hr />
-
-        <p className='x'>2 Slice of Cheese</p>
-        <p className='x'>$8.99</p>
-
-        <p className='x'>1 Slice of Cheese w/ Salad</p>
-        <p className='x'>$9.99</p>
-
-        <p className='x'>6 inch Cold Sub w/ Fries</p>
-        <p className='x'>$11.99</p>
-
+        <p className='x' style={{ marginBottom: '0px' }}>2 Slice of Cheese</p>
+        <p className='x' style={{ marginBottom: '0px' }}>$8.99</p>
+        <p className='x' style={{ marginBottom: '0px' }}>1 Slice of Cheese w/ Salad</p>
+        <p className='x' style={{ marginBottom: '0px' }}>$9.99</p>
+        <p className='x' style={{ marginBottom: '0px' }}>6 inch Cold Sub w/ Fries</p>
+        <p className='x' style={{ marginBottom: '0px' }}>$11.99</p>
         <hr />
-
-        <p className='y'>*Ask us about our all day Specials*</p>
-      </center>
-
-      <br />
-
-      <center>
-        <h2>Pizza Topping Specials</h2>
-      </center>
-
-      <center>
-        <p className='x'>All day every day</p>
-        <p className='x'>Any 4 toppings</p>
-        <p className='x'>$8.99</p>
-      </center>
-
-      <center>
+      </div>
+      <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Pizza Topping Specials</h2>
+      <div style={{ textAlign: 'center', marginTop: '10px' }}>
+        <p className='x' style={{ marginBottom: '0px' }}>All day every day</p>
+        <p className='x' style={{ marginBottom: '0px' }}>Any 4 toppings</p>
+        <p className='x' style={{ marginBottom: '0px' }}>$8.99</p>
+      </div>
+      <p style={{ textAlign: 'center', marginTop: '10px' }}>
         <a href="/menu" className="active btn btn-primary" >View our full menu here!</a>
-      </center>
-
-      <br />
-
+      </p>
     </div>
   );
 };

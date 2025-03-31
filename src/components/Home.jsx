@@ -107,7 +107,7 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
       </center>
-      <h2 style={{ textAlign: 'center' }}>Buonos Specialties</h2>
+      <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Buonos Specialties</h2>
       <p className='x' style={{ textAlign: 'center' }}>We refuse to compromise. We use the freshest and finest ingredients. Our pizza dough, pizza sauce, and pasta sauce are made fresh daily in house.</p> 
       <p style={{ textAlign: 'center' }}><a href="/specials" className="active btn btn-primary" >View our specialty options here!</a></p>  
       <h2 style={{ textAlign: 'center' }}>Loyalty Bonus</h2>
@@ -138,7 +138,7 @@ const Home = () => {
           </Row>
         </center>
       </Container>
-      <h2 style={{ textAlign: 'center' }}>Take Out Or Dine In</h2>
+      <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Take Out Or Dine In</h2>
       <p className='x' style={{ textAlign: 'center' }}>Come see us in person! To take full advantage of our quality the best option is to dine in, or reserve an in store pick up order. We love our customers so feel free to visit during our normal business hours.</p>
       <p style={{ textAlign: 'center' }}><a href="/specials" className="active btn btn-primary" >View our menu options here!</a></p>
       <h2 style={{ textAlign: 'center' }}>Delivery Service thru 3rd party</h2>
