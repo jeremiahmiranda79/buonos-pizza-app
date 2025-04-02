@@ -28,7 +28,7 @@ const Specials = () => {
       <h2 style={{ textAlign: 'center' }}>Try Our New Creation</h2>
       <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Try our new pasta bowl</p>
       <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>$14.99 plus tax</p>
-      <p className='y' style={{ textAlign: 'center', marginBottom: '0px' }}>Choice of spaghetti or penne. Choice of chicken, meatball, or sausage. Choice of marinara, pink vodka, or alfredo. Then topped with fresh basil, and parmesan</p>
+      <p className='y' style={{ textAlign: 'center', marginBottom: '18px' }}>Choice of spaghetti or penne. <br/> Choice of chicken, meatball, or sausage. <br/> Choice of marinara, pink vodka, or alfredo. <br/> Then topped with fresh basil, and parmesan</p>
       {/* <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only! *</p> */}
       <p style={{ textAlign: 'center' }}>
         <img 
