@@ -15,17 +15,38 @@ const Specials = () => {
       <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only! *</p>
       <p style={{ textAlign: 'center' }}>
         <img 
-          src="/images/specials/margheritaStracciatellaPie.jpg" 
+          rel="preload"
+          fetchpriority="high"
+          src="/images/specials/stracciatella.webp" 
           alt="margherita stracciatella pizza" 
           className="Image"
         />
       </p>
+
+
+      {/* <p className='y' style={{ textAlign: 'center', fontWeight: 'bold' }}>*Ask us about our all day Specials*</p> */}
+      <h2 style={{ textAlign: 'center' }}>Try Our New Creation</h2>
+      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Try our new pasta bowl</p>
+      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>$14.99 plus tax</p>
+      <p className='y' style={{ textAlign: 'center', marginBottom: '0px' }}>Choice of spaghetti or penne. Choice of chicken, meatball, or sausage. Choice of marinara, pink vodka, or alfredo. Then topped with fresh basil, and parmesan</p>
+      {/* <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only! *</p> */}
+      <p style={{ textAlign: 'center' }}>
+        <img 
+          // rel="preload"
+          // fetchpriority="high"
+          src="/images/specials/pasta-bowl.webp" 
+          alt="pasta bowl" 
+          className="Image"
+        />
+      </p>
+
+
       <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Specialty Pizza Menu</h2>
       <p className='x' style={{ textAlign: 'center', marginTop: '10px', marginBottom: '0px' }}>Extra Large 18" Specialty Neapolitan Style Pizza for $27.99 plus tax.</p>
       <p className='y' style={{ textAlign: 'center', marginTop: '10px', fontWeight: 'bold' }}>* Please No Modifications! *</p>
       <p style={{ textAlign: 'center', marginTop: '10px' }}>
         <img 
-          src="/images/specials/pizza-specials.jpg" 
+          src="/images/specials/specials.webp" 
           alt="pizza specials menu" 
           className="Image"
         />
@@ -45,14 +66,12 @@ const Specials = () => {
       <div style={{ textAlign: 'center', marginTop: '10px' }}>
         <p className='x' style={{ marginBottom: '0px' }}>Available Monday-Friday opening to 4pm </p>
         <p className='y'>(Fountain Drink included)</p>
-        <hr />
         <p className='x' style={{ marginBottom: '0px' }}>2 Slice of Cheese</p>
         <p className='x' style={{ marginBottom: '0px' }}>$8.99</p>
         <p className='x' style={{ marginBottom: '0px' }}>1 Slice of Cheese w/ Salad</p>
         <p className='x' style={{ marginBottom: '0px' }}>$9.99</p>
         <p className='x' style={{ marginBottom: '0px' }}>6 inch Cold Sub w/ Fries</p>
         <p className='x' style={{ marginBottom: '0px' }}>$11.99</p>
-        <hr />
       </div>
       <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Pizza Topping Specials</h2>
       <div style={{ textAlign: 'center', marginTop: '10px' }}>
