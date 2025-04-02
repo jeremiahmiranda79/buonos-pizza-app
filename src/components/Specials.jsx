@@ -16,47 +16,34 @@ const Specials = () => {
       <p style={{ textAlign: 'center' }}>
         <img 
           rel="preload"
-          fetchpriority="high"
+          fetchPriority="high"
           src="/images/specials/stracciatella.webp" 
           alt="margherita stracciatella pizza" 
           className="Image"
         />
       </p>
-
-
-      {/* <p className='y' style={{ textAlign: 'center', fontWeight: 'bold' }}>*Ask us about our all day Specials*</p> */}
       <h2 style={{ textAlign: 'center' }}>Try Our New Creation</h2>
       <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Try our new pasta bowl</p>
       <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>$14.99 plus tax</p>
       <p className='y' style={{ textAlign: 'center', marginBottom: '18px' }}>Choice of spaghetti or penne. <br/> Choice of chicken, meatball, or sausage. <br/> Choice of marinara, pink vodka, or alfredo. <br/> Topped with fresh basil, and parmesan</p>
-      {/* <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only! *</p> */}
       <p style={{ textAlign: 'center' }}>
         <img 
-          // rel="preload"
-          // fetchpriority="high"
           src="/images/specials/pasta-bowl.webp" 
           alt="pasta bowl" 
           className="Image"
         />
       </p>
-
-
       <h2 style={{ textAlign: 'center' }}>Our Newest Hero Sandwich</h2>
-      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Try the bomber hero.</p>
+      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Try the bomber hero</p>
       <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>$14.99 plus tax</p>
       <p className='y' style={{ textAlign: 'center', marginBottom: '18px' }}>Chicken cutlet, fresh mozzarella, prosciutto, roasted red pepper, baby arugula, and balsamic fig glaze.</p>
-      {/* <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only! *</p> */}
       <p style={{ textAlign: 'center' }}>
         <img 
-          // rel="preload"
-          // fetchpriority="high"
           src="/images/specials/bomber.webp" 
           alt="pasta bowl" 
           className="Image"
         />
       </p>
-
-
       <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Specialty Pizza Menu</h2>
       <p className='x' style={{ textAlign: 'center', marginTop: '10px', marginBottom: '0px' }}>Extra Large 18" Specialty Neapolitan Style Pizza for $27.99 plus tax.</p>
       <p className='y' style={{ textAlign: 'center', marginTop: '10px', fontWeight: 'bold' }}>* Please No Modifications! *</p>
