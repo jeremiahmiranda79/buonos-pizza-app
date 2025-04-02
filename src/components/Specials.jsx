@@ -54,17 +54,17 @@ const Specials = () => {
           className="Image"
         />
       </p>
-      <p style={{ textAlign: 'center', marginTop: '10px' }}>
+      {/* <p style={{ textAlign: 'center', marginTop: '10px' }}>
         <a 
           href="/menu" className="active btn btn-primary">View our full menu here!
         </a>
-      </p>
+      </p> */}
       <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Game Day</h2>
       <p className='x' style={{ textAlign: 'center' }}>Large 16" one topping Neapolitan pizza & 10 wings for $29.99 plus tax.</p>
       <p className='x' style={{ textAlign: 'center' }}>Available for dine in or take out, open to close on NFL game day's only(Sunday, Monday, Thursday).</p>
-      <p style={{ textAlign: 'center', marginTop: '10px' }}>
+      {/* <p style={{ textAlign: 'center', marginTop: '10px' }}>
         <a href="/menu" className="active btn btn-primary">View our full menu here!</a>
-      </p>
+      </p> */}
       <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Lunch Specials</h2>
       <div style={{ textAlign: 'center', marginTop: '10px' }}>
         <p className='x' style={{ marginBottom: '0px' }}>Available Monday-Friday opening to 4pm </p>
@@ -82,9 +82,9 @@ const Specials = () => {
         <p className='x' style={{ marginBottom: '0px' }}>Any 4 toppings</p>
         <p className='x' style={{ marginBottom: '0px' }}>$8.99</p>
       </div>
-      <p style={{ textAlign: 'center', marginTop: '10px' }}>
+      {/* <p style={{ textAlign: 'center', marginTop: '10px' }}>
         <a href="/menu" className="active btn btn-primary" >View our full menu here!</a>
-      </p>
+      </p> */}
     </div>
   );
 };
