@@ -18,7 +18,7 @@ const Specials = () => {
           className="Image"
         />
       </p>
-      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Try our new Margherita Stracciatella pie</p>
+      <p className='x' style={{ textAlign: 'center', marginBottom: '0px', fontWeight: 'bold' }}>Try our new Margherita Stracciatella pie</p>
       <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>XL 18" $27.99 plus tax</p>
       <p className='y' style={{ textAlign: 'center', marginBottom: '0px' }}>A "Margherita Stracciatella pizza pie" is a pizza that combines the classic Margherita pizza's simplicity with the creamy richness of stracciatella cheese, offering a delicious blend of flavors and textures.</p>
       <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only! *</p>
@@ -30,7 +30,7 @@ const Specials = () => {
           className="Image"
         />
       </p>
-      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Check in on our new pasta bowl</p>
+      <p className='x' style={{ textAlign: 'center', marginBottom: '0px', fontWeight: 'bold' }}>Check in on our new pasta bowl</p>
       <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>$14.99 plus tax</p>
       <p className='y' style={{ textAlign: 'center', marginBottom: '18px' }}>Choice of spaghetti or penne. <br/> Choice of chicken, meatball, or sausage. <br/> Choice of marinara, pink vodka, or alfredo. <br/> Topped with fresh basil, and parmesan</p>
       <h2 style={{ textAlign: 'center' }}>Our Newest Hero Sandwich</h2>
@@ -41,7 +41,7 @@ const Specials = () => {
           className="Image"
         />
       </p>
-      <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>Try the bomber hero</p>
+      <p className='x' style={{ textAlign: 'center', marginBottom: '0px', fontWeight: 'bold' }}>Try the bomber hero</p>
       <p className='x' style={{ textAlign: 'center', marginBottom: '0px' }}>$14.99 plus tax</p>
       <p className='y' style={{ textAlign: 'center', marginBottom: '18px' }}>Chicken cutlet, fresh mozzarella, prosciutto, roasted red pepper, baby arugula, and balsamic fig glaze.</p>
       <h2 style={{ textAlign: 'center', marginTop: '10px' }}>Specialty Pizza Menu</h2>
