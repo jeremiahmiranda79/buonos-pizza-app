@@ -5,42 +5,28 @@ import { Image } from 'react-bootstrap';
 
 const Hours = () => {
   return (
-    <div>
-      <br /><br /><br /><br />  
-      <center>
-        <h1>Hours</h1>
-      </center>
-
-      <Image src='/images/photos/header-2.webp' fluid />
-      
-      <center>
+    <div style={{ margin: '100px 10px 10px 10px' }} >  
+      <h1 rel="preload" style={{ textAlign: 'center' }}>Hours</h1>
+      <Image 
+        rel="preload"
+        fetchPriority="high"
+        src='/images/photos/header-2.webp'
+        alt='store front' 
+        fluid />
+      <div style={{ textAlign: 'center' }}>
         <CurrentDateTime />        
-      </center>
-
-      <center>
-        <p className='y'>
-          Hours of operation are subject to change based on circumstance or holidays 
-        </p>
-        <p className='y'>
-          Please call ahead if you have inquires that need garenteed timing
-        </p>
-      </center>
-
-      <div className="container-hours">
-        <center>
-          <h2>Hours Of Operation</h2>
-        </center>
-
-        <center>  
-            <hr />
-
-            {HOURS_INFORMATION.map((hours) => (
-              <div>
-                <p className='y'>{hours.date}</p>
-                <hr />
-              </div>
-            ))};
-        </center>
+      </div>
+      <p className='y' style={{ textAlign: 'center', marginBottom: '0px' }} >
+        Hours of operation are subject to change based on circumstance or holidays.
+      </p>
+      <p className='y' style={{ textAlign: 'center' }} >
+        Please call ahead if you have inquires that need garenteed timing.
+      </p>
+      <h2 style={{ textAlign: 'center' }}>Hours Of Operation</h2>
+      <div style={{ textAlign: 'center' }}>  
+        {HOURS_INFORMATION.map((hours) => (
+          <p key={hours.id} className='y' style={{ marginBottom: '0px' }}>{hours.date}</p>
+        ))}
       </div>
     </div>
   )

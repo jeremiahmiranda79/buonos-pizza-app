@@ -50,6 +50,20 @@ const Home = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
+            <div className='wrapper' >
+              <img
+                rel="preload"
+                loading="lazy"
+                className="d-block w-100"
+                src="/images/carousel/slice-pies.webp"
+                alt="store front"
+              />
+            </div> 
+            <Carousel.Caption>
+              <h3>Daily Slice Specials</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
             <div className='wrapper'>
               <img
                 rel="preload"

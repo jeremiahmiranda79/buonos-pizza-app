@@ -12,16 +12,15 @@ function CurrentDateTime() {
   }, []);
 
   return (
-    <div>
+    <>
       <p 
-        className='x'>
-          <hr />
-          Current Date: {now.toLocaleDateString()} 
-          <br /> 
-          Current Time: {now.toLocaleTimeString()}
-          <hr />
+        className='x'
+        style={{ marginTop: '10px', marginBottom: '0px', fontWeight: 'bolder' }}
+      >
+        Current Date: {now.toLocaleDateString()} <br />
+        Current Time: {now.toLocaleTimeString()}
       </p>
-    </div>
+    </>
   );
 }
 
