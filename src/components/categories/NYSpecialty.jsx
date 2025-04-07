@@ -9,7 +9,7 @@ import { NY_SPECIALTY } from '../../constants/regularMenuItems/nySpecialty';
 
 const NYSpecialty = () => {
   return (
-    <Container id={PRODUCT_CATEGORIES[15].id}>
+    <Container style={{ marginBottom: '25px' }} id={PRODUCT_CATEGORIES[15].id}>
       <h1 className='Title' style={{ marginTop: '10px', marginBottom: '10px' }} >{PRODUCT_CATEGORIES[15].name}</h1>
       <Image 
         style={{ marginBottom: '10px' }}

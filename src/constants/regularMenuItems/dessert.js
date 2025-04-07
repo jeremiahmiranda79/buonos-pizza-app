@@ -12,7 +12,6 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'Dessert',
@@ -26,7 +25,6 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
-
   {
     id: 3,
     category: 'Dessert',
@@ -40,7 +38,6 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
-
   {
     id: 4,
     category: 'Dessert',
@@ -54,23 +51,8 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
-
   {
     id: 5,
-    category: 'Dessert',
-    name: 'Tiramisu',
-    description: 'Italian dessert made of ladyfingers dipped in coffee, layered with a whipped mascarpone, & cocoa.',
-    images: '/images/menu-items/dessert/tiramisu.webp',
-    size1: 'Single slice',
-    price1: 6.49,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null
-  },
-
-  {
-    id: 6,
     category: 'Dessert',
     name: 'Cheese Cake',
     description: 'NYC-style cheese cake with vanilla cream cheese filling in a graham cracker crust.',
@@ -82,9 +64,8 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
-
   {
-    id: 7,
+    id: 6,
     category: 'Dessert',
     name: 'Limoncello Cake',
     description: 'Fluffy sponge cake with limoncello mascarpone and cream cheese frosting.',
@@ -96,9 +77,8 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
-
   {
-    id: 8,
+    id: 7,
     category: 'Dessert',
     name: 'Pistachio Ricotta Cake',
     description: 'A combination of smooth ricotta filling, crushed pistachio, & a delicsous frosting.',
@@ -110,9 +90,8 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
-
   {
-    id: 9,
+    id: 8,
     category: 'Dessert',
     name: 'Zeppolis',
     description: 'Italian deep-fried dough topped with powdered sugar.',
