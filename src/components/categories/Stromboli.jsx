@@ -10,15 +10,13 @@ import { STROMBOLI } from '../../constants/regularMenuItems/stromboli';
 const Stromboli = () => {
   return (
     <Container id={PRODUCT_CATEGORIES[7].id}>
-      <h1 className='Title'>{PRODUCT_CATEGORIES[7].name}</h1>
+      <h1 className='Title' style={{ marginTop: '10px', marginBottom: '10px' }} >{PRODUCT_CATEGORIES[7].name}</h1>
       <Image 
+        style={{ marginBottom: '10px' }}
         src="/images/categories/stromboli.webp" 
         fluid 
         alt={PRODUCT_CATEGORIES[7].name}
       />
-
-      <br /> <br />
-
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {STROMBOLI.map((item) => (
           <Col key={item.id}>
@@ -30,22 +28,16 @@ const Stromboli = () => {
               />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>
-                  {item.description}
-                </Card.Text>
-
-                {item.size1 ? <Card.Text>
+                <Card.Text style={{ marginBottom: '5px' }} >{item.description}</Card.Text>
+                {item.size1 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
-
-                {item.size2 ? <Card.Text>
+                {item.size2 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size2} ${item.price2.toFixed(2)}
                 </Card.Text> : null}
-
-                {item.size3 ? <Card.Text>               
+                {item.size3 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
-                
               </Card.Body>
             </Card>
           </Col>

@@ -1,5 +1,6 @@
 export const INFORMATION = [
   {
+    id: 1,
     name: 'Information',
     welcome: 'Welcome to Buonos Pizza Williams Field',
     llc: '🍕  Buonos Gilbert LLC',

@@ -20,15 +20,14 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Pastas
-        </Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">PASTAS</Modal.Title>
       </Modal.Header>      
       <Modal.Body>
-        <h4>Pasta choices<br /></h4>
+        <h4>Pasta choices</h4>
+        <h6>Additional pasta sides are sold by the each</h6>
         <ul>
           {PASTA_CHOICE.map((pasta) => (
-            <li>{pasta.name}</li>
+            <li key={pasta.id}>{pasta.name}</li>
           ))}
         </ul>
       </Modal.Body>
@@ -45,19 +44,16 @@ function MyVerticallyCenteredModal2(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Salad Choices
-        </Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">SALADS</Modal.Title>
       </Modal.Header>      
       <Modal.Body>
         <h4>Choose our House or a Caesar salad<br /></h4>
-        <h6>Extra sides of dressings are sold by the each<br /></h6>
+        <h6>Extra sides of dressings are sold by the each</h6>
         <ul>
           {DRESSING_SALAD.map((dressing) => (
-            <li>{dressing.name} - First one free. All extra dressings: ${dressing.price3oz.toFixed(2)}</li>
+            <li key={dressing.id}>{dressing.name} - First one free. All extra dressings: ${dressing.price3oz.toFixed(2)}</li>
           ))}
         </ul>
-
       </Modal.Body>
     </Modal>
   );
@@ -66,16 +62,14 @@ function MyVerticallyCenteredModal2(props) {
 const Entree = () => {
   const [modalShow, setModalShow] = React.useState(false);
   const [modalShow2, setModalShow2] = React.useState(false);
-
   return (
     <Container id={PRODUCT_CATEGORIES[9].id}>
-      <h1 className='Title'>{PRODUCT_CATEGORIES[9].name}</h1>
+      <h1 className='Title' style={{ marginTop: '10px', marginBottom: '10px' }}>{PRODUCT_CATEGORIES[9].name}</h1>
       <Image 
         src="/images/categories/entree.webp" 
         fluid 
         alt={PRODUCT_CATEGORIES[9].name}
       />
-      <br /><br />
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {ENTREE.map((item) => (
           <Col key={item.id}>
@@ -87,31 +81,29 @@ const Entree = () => {
               />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>
+                <Card.Text style={{ marginBottom: '5px' }} >
                   {item.description}
                 </Card.Text>
-                {item.size1 ? <Card.Text>
+                {item.size1 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
-                {item.size2 ? <Card.Text>
+                {item.size2 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size2} ${item.price2.toFixed(2)}
                 </Card.Text> : null}
-                {item.size3 ? <Card.Text>               
+                {item.size3 ? <Card.Text style={{ marginBottom: '0px' }} >               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
                 {item.isPasta && <div className='mt-auto'>
-                  <Button  variant="primary" onClick={() => setModalShow(true)}>
+                  <Button style={{ marginTop: '10px' }} variant="primary" onClick={() => setModalShow(true)}>
                     See pasta choices
                   </Button>
                 </div>}
-
                 <MyVerticallyCenteredModal
                   show={modalShow}
                   onHide={() => setModalShow(false)}
                 />
-                <br />
                 <div className='mt-auto'>
-                  <Button  variant="primary" onClick={() => setModalShow2(true)}>
+                  <Button style={{ marginTop: '10px' }} variant="primary" onClick={() => setModalShow2(true)}>
                     See salad options
                   </Button>
                 </div>

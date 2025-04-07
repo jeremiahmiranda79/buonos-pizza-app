@@ -12,7 +12,6 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'NYSpecialty',
@@ -26,7 +25,6 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-
   {
     id: 3,
     category: 'NYSpecialty',
@@ -40,7 +38,6 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-
   {
     id: 4,
     category: 'NYSpecialty',
@@ -54,7 +51,6 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-
   {
     id: 5,
     category: 'NYSpecialty',
@@ -68,7 +64,6 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-
   {
     id: 6,
     category: 'NYSpecialty',
@@ -82,7 +77,6 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-
   {
     id: 7,
     category: 'NYSpecialty',
@@ -96,7 +90,6 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-
   {
     id: 8,
     category: 'NYSpecialty',
@@ -104,13 +97,12 @@ export const NY_SPECIALTY = [
     description: 'Premium Italian natural ricotta cheese. A New York favorite.',
     images: '/images/menu-items/ny-favorite/polly-o-ricotta.webp',
     size1: '5 lb',
-    price1: NaN,
+    price1: 17.99,
     size2: null,
     price2: null,
     size3: null,
     price3: null
   },
-
   {
     id: 9,
     category: 'NYSpecialty',
@@ -124,13 +116,12 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-
   {
     id: 10,
     category: 'NYSpecialty',
     name: 'Foxs u-bet Syrup',
     description: 'This extra-thick U-Bet Chocolate or Vanilla Syrup is the perfect companion for egg creams, ice cream sundaes, milkshakes, chocolate milk, and pancakes! This fat-free chocolate syrup has a rich chocolate flavor and smooth, velvety texture.',
-    images: '/images/icons-logos/buonos-logo-3.webp',
+    images: '/images/menu-items/ny-favorite/fox-u-bet.webp',
     size1: '22 oz',
     price1: 8.99,
     size2: null,

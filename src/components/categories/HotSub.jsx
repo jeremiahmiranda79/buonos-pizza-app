@@ -7,7 +7,6 @@ import Container from 'react-bootstrap/Container';
 import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
 import { HOT_SUB } from '../../constants/regularMenuItems/hotSub';
 import { TOPPING_HOT_SUB } from '../../constants/toppingsHotSub';
-
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -20,24 +19,16 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Hot Sub Toppings
-        </Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">HOT SUB TOPPINGS</Modal.Title>
       </Modal.Header>
-      
       <Modal.Body>
-        <h4>
-          Extra toppings are sold by the each <br />
-        </h4>
-
+        <h4>Hot sub topping choices</h4>
+        <h6>Extra toppings are sold by the each</h6>
         <ul>
           {TOPPING_HOT_SUB.map((topping) => (
-            <li>
-              {topping.name} - ${topping.price}
-            </li>
+            <li key={topping.id}>{topping.name} - ${topping.price}</li>
           ))}
         </ul>
-
       </Modal.Body>
     </Modal>
   );
@@ -45,18 +36,15 @@ function MyVerticallyCenteredModal(props) {
 
 const HotSub = () => {
   const [modalShow, setModalShow] = React.useState(false);
-  
   return (
     <Container id={PRODUCT_CATEGORIES[10].id}>
-      <h1 className='Title'>{PRODUCT_CATEGORIES[10].name}</h1>
+      <h1 className='Title' style={{ marginTop: '10px', marginBottom: '10px' }} >{PRODUCT_CATEGORIES[10].name}</h1>
       <Image 
+        style={{ marginBottom: '10px' }}
         src="/images/categories/hot-sub-sop.webp" 
         fluid 
         alt={PRODUCT_CATEGORIES[10].name} 
       />
-
-      <br /> <br />
-
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {HOT_SUB.map((item) => (
           <Col key={item.id}>
@@ -68,33 +56,21 @@ const HotSub = () => {
               />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>
-                  {item.description}
-                </Card.Text>
-
-                {item.size1 ? <Card.Text>
+                <Card.Text style={{ marginBottom: '5px' }} >{item.description}</Card.Text>
+                {item.size1 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
-
-                {item.size2 ? <Card.Text>
+                {item.size2 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size2} ${item.price2.toFixed(2)}
                 </Card.Text> : null}
-
-                {item.size3 ? <Card.Text>               
+                {item.size3 ? <Card.Text style={{ marginBottom: '0px' }} >               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
-
-                <div className='mt-auto'>
-                  <Button  variant="primary" onClick={() => setModalShow(true)}>
-                    Topping choices
-                  </Button>
-                </div>
-
+                <Button style={{ marginTop: '10px' }} variant="primary" onClick={() => setModalShow(true)}>See topping choices</Button>     
                 <MyVerticallyCenteredModal
                   show={modalShow}
                   onHide={() => setModalShow(false)}
-                />
-                
+                />               
               </Card.Body>
             </Card>
           </Col>

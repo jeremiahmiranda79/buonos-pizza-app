@@ -11,10 +11,8 @@ export const BEVERAGE = [
     price2: null,
     size3: null,
     price3: null,
-
     isFountain: true
   },
-
   {
     id: 2,
     category: 'Beverage',
@@ -27,10 +25,8 @@ export const BEVERAGE = [
     price2: null,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
   {
     id: 3,
     category: 'Beverage',
@@ -43,10 +39,8 @@ export const BEVERAGE = [
     price2: null,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
   {
     id: 4,
     category: 'Beverage',
@@ -59,26 +53,22 @@ export const BEVERAGE = [
     price2: null,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
-  {
-    id: 5,
-    category: 'Beverage',
-    name: 'Arizona Lemonade Stand',
-    description: 'Made with real lemons, fruits,and other natural flavors.',
-    images: '/images/menu-items/beverage/az-lemonade.webp',
-    size1: '32 oz bottle',
-    price1: 6.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null,
-
-    isFountain: false
-  },
-
+  // {
+  //   id: 5,
+  //   category: 'Beverage',
+  //   name: 'Arizona Lemonade Stand',
+  //   description: 'Made with real lemons, fruits,and other natural flavors.',
+  //   images: '/images/menu-items/beverage/az-lemonade.webp',
+  //   size1: '32 oz bottle',
+  //   price1: 6.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null,
+  //   isFountain: false
+  // },
   {
     id: 6,
     category: 'Beverage',
@@ -91,10 +81,8 @@ export const BEVERAGE = [
     price2: null,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
   {
     id: 7,
     category: 'Beverage',
@@ -107,10 +95,8 @@ export const BEVERAGE = [
     price2: null,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
   {
     id: 8,
     category: 'Beverage',
@@ -123,10 +109,8 @@ export const BEVERAGE = [
     price2: null,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
   {
     id: 9,
     category: 'Beverage',
@@ -139,10 +123,8 @@ export const BEVERAGE = [
     price2: null,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
   {
     id: 10,
     category: 'Beverage',
@@ -155,10 +137,8 @@ export const BEVERAGE = [
     price2: 26.00,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
   {
     id: 11,
     category: 'Beverage',
@@ -171,8 +151,6 @@ export const BEVERAGE = [
     price2: 26.00,
     size3: null,
     price3: null,
-
     isFountain: false
   },
-
 ];

@@ -19,13 +19,13 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">Beverages</Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">BEVERAGES</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <h4>Beverage choices<br /></h4>
         <ul>
           {FOUNTAIN_DRINKS.map((drink) => (
-            <li>{drink.name}</li>
+            <li key={drink.id}>{drink.name}</li>
           ))}
         </ul>
       </Modal.Body>
@@ -37,13 +37,13 @@ const Beverage = () => {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <Container id={PRODUCT_CATEGORIES[14].id}>
-      <h1 className='Title'>{PRODUCT_CATEGORIES[14].name}</h1>
+      <h1 className='Title' style={{ marginTop: '10px', marginBottom: '10px' }} >{PRODUCT_CATEGORIES[14].name}</h1>
       <Image 
+        style={{ marginBottom: '10px' }}
         src="/images/categories/beverage-soda-fountain.webp" 
         fluid 
         alt={PRODUCT_CATEGORIES[14].name} 
       />
-      <br /><br />
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {BEVERAGE.map((item) => (
           <Col key={item.id}>
@@ -55,18 +55,18 @@ const Beverage = () => {
               />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>{item.description}</Card.Text>
-                {item.size1 ? <Card.Text>
+                <Card.Text style={{ marginBottom: '5px' }} >{item.description}</Card.Text>
+                {item.size1 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size1} ${item.price1.toFixed(2)}
                 </Card.Text> : null}
-                {item.size2 ? <Card.Text>
+                {item.size2 ? <Card.Text style={{ marginBottom: '0px' }} >
                   {item.size2} ${item.price2.toFixed(2)}
                 </Card.Text> : null}
-                {item.size3 ? <Card.Text>               
+                {item.size3 ? <Card.Text style={{ marginBottom: '0px' }} >               
                   {item.size3} ${item.price3.toFixed(2)}
                 </Card.Text> : null}
                 {item.isFountain && <div className='mt-auto'>
-                  <Button  variant="primary" onClick={() => setModalShow(true)}>
+                  <Button style={{ marginTop: '10px' }} variant="primary" onClick={() => setModalShow(true)}>
                     See drink choices
                   </Button>
                 </div>}
