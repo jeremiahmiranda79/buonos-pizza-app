@@ -4,7 +4,7 @@ export const SIDE = [
     category: 'Side',
     name: 'Meatballs',
     description: null,
-    images: '/images/icons-logos/buonos-logo-3.webp',
+    images: '/images/catering-menu/side/meatballs.webp',
     size1: 'Half Tray',
     price1: 45,
     size2: null,

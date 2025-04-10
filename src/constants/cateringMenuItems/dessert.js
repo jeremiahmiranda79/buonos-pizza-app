@@ -18,7 +18,7 @@ export const DESSERT = [
     category: 'Dessert',
     name: 'Limoncello',
     description: null,
-    images: '/images/icons-logos/buonos-logo-3.webp',
+    images: '/images/catering-menu/dessert/limoncello.webp',
     size1: '12 slices',
     price1: 60,
     size2: null,
