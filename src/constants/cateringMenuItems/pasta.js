@@ -64,7 +64,7 @@ export const PASTA = [
     category: 'Pasta',
     name: 'Pink Vodka',
     description: null,
-    images: '/images/icons-logos/buonos-logo-3.webp',
+    images: '/images/icons-logos/buonos-logo-default.webp',
     size1: 'Half Tray',
     price1: 60,
     size2: 'Full Tray',

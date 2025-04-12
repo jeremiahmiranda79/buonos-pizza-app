@@ -12,7 +12,7 @@ const Side = () => {
       <h1 className='Title'>{CATEGORIES_CATERING[4].name}</h1>
       <h2>{CATEGORIES_CATERING[4].included}</h2>
       <h2>{CATEGORIES_CATERING[4].choice}</h2>
-      <h2>{CATEGORIES_CATERING[4].portion}</h2>
+      <h2 >{CATEGORIES_CATERING[4].portion}</h2>
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {SIDE.map((item) => (
           <Col key={item.id}>
@@ -25,9 +25,9 @@ const Side = () => {
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
                 <Card.Text>{item.description}</Card.Text>
-                {item.size1 ? <Card.Text>{item.size1} ${item.price1}</Card.Text> : null}
-                {item.size2 ? <Card.Text>{item.size2} ${item.price2}</Card.Text> : null}
-                {item.size3 ? <Card.Text>{item.size3} ${item.price3}</Card.Text> : null}               
+                {item.size1 ? <Card.Text style={{ marginBottom: '0px' }} >{item.size1} ${item.price1}</Card.Text> : null}
+                {item.size2 ? <Card.Text style={{ marginBottom: '0px' }} >{item.size2} ${item.price2}</Card.Text> : null}
+                {item.size3 ? <Card.Text style={{ marginBottom: '0px' }} >{item.size3} ${item.price3}</Card.Text> : null}               
               </Card.Body>
             </Card>
           </Col>
