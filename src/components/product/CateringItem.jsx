@@ -10,17 +10,17 @@ import '../../css/menu_page.css';
 
 const CateringItem = () => {
   return (
-    <div>
-      <CategoryBar />
-      <div className='MenuPage'>
-        <Appetizer />
-        <Salad />
-        <Pasta />
-        <Entree />
-        <Side />
-        <Dessert />
+    <>
+      <CategoryBar/>
+      <div className='MenuPage' style={{marginBottom: '25px'}}>
+        <Appetizer/>
+        <Salad/>
+        <Pasta/>
+        <Entree/>
+        <Side/>
+        <Dessert style={{marginBottom: '0px'}}/>
       </div>
-    </div>
+    </>
   );
 };
 

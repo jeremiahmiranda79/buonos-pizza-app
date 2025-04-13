@@ -20,27 +20,27 @@ import '../../css/menu_page.css';
 
 const MenuItem = () => {
   return (
-    <div>
-      <CategoryBar />
+    <>
+      <CategoryBar/>
       <div className='MenuPage'>
         <Pizza/>
-        <SpecialtyPizza />
-        <GlutenFree />
-        <PizzaSlice />
-        <Appetizer />
-        <SausageRoll />
-        <Calzone />
-        <Stromboli />
-        <Salad />
-        <Entree />
-        <HotSub />
-        <ColdSub />
-        <SideOrder />
-        <Dessert />
-        <Beverage />
-        <NYSpecialty />
+        <SpecialtyPizza/>
+        <GlutenFree/>
+        <PizzaSlice/>
+        <Appetizer/>
+        <SausageRoll/>
+        <Calzone/>
+        <Stromboli/>
+        <Salad/>
+        <Entree/>
+        <HotSub/>
+        <ColdSub/>
+        <SideOrder/>
+        <Dessert/>
+        <Beverage/>
+        <NYSpecialty/>
       </div>
-    </div>
+    </>
   );
 }
 
