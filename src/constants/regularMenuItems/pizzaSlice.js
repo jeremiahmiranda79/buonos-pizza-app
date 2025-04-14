@@ -12,7 +12,6 @@ export const PIZZA_SLICE = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'PizzaSlice',
@@ -26,7 +25,6 @@ export const PIZZA_SLICE = [
     size3: null,
     price3: null
   },
-
   {
     id: 3,
     category: 'PizzaSlice',

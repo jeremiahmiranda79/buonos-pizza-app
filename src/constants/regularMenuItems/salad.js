@@ -11,10 +11,8 @@ export const SALAD = [
     price2: 7.99,
     size3: null,
     price3: null,
-
     isSaladDressing: true
   },
-
   {
     id: 2,
     category: 'Salad',
@@ -27,10 +25,8 @@ export const SALAD = [
     price2: 7.99,
     size3: null,
     price3: null,
-
     isSaladDressing: true
   },
-
   {
     id: 3,
     category: 'Salad',
@@ -43,10 +39,8 @@ export const SALAD = [
     price2: 11.99,
     size3: null,
     price3: null,
-
     isSaladDressing: true
   },
-
   {
     id: 4,
     category: 'Salad',
@@ -59,10 +53,8 @@ export const SALAD = [
     price2: 11.99,
     size3: null,
     price3: null,
-
     isSaladDressing: true
   },
-
   {
     id: 5,
     category: 'Salad',
@@ -75,10 +67,8 @@ export const SALAD = [
     price2: 11.99,
     size3: null,
     price3: null,
-
     isSaladDressing: true
   },
-
   {
     id: 6,
     category: 'Salad',
@@ -91,8 +81,6 @@ export const SALAD = [
     price2: 8.49,
     size3: null,
     price3: null,
-
     isSaladDressing: false
   },
-  
 ];

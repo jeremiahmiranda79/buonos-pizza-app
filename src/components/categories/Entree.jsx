@@ -4,10 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
-import { PRODUCT_CATEGORIES } from '../../constants/regularMenuItems/categoriesRegular';
-import { ENTREE } from '../../constants/regularMenuItems/entree';
-import { PASTA_CHOICE } from '../../constants/pastaChoices';
-import { DRESSING_SALAD } from '../../constants/dressingSalad';
+import {PRODUCT_CATEGORIES} from '../../constants/regularMenuItems/categoriesRegular';
+import {ENTREE} from '../../constants/regularMenuItems/entree';
+import {PASTA_CHOICE} from '../../constants/pastaChoices';
+import {DRESSING_SALAD} from '../../constants/dressingSalad';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 

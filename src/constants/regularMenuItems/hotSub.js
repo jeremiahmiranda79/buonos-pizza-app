@@ -12,7 +12,6 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'HotSub',
@@ -26,7 +25,6 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 3,
     category: 'HotSub',
@@ -40,7 +38,6 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 4,
     category: 'HotSub',
@@ -54,7 +51,6 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 5,
     category: 'HotSub',
@@ -68,7 +64,6 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 6,
     category: 'HotSub',
@@ -82,7 +77,6 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 7,
     category: 'HotSub',
@@ -96,7 +90,6 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 8,
     category: 'HotSub',
@@ -110,5 +103,4 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
-
 ];

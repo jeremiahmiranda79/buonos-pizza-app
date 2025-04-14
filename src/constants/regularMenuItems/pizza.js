@@ -12,7 +12,6 @@ export const PIZZAS = [
     size3: 'Extra Large 18 inch, 8 cut',
     price3: 19.99
   },
-
   {
     id: 2, 
     category: 'Pizza',
@@ -26,7 +25,6 @@ export const PIZZAS = [
     size3: 'Extra Large 18 inch, 8 cut',
     price3: 21.99
   },
-
   {
     id: 3,
     category: 'Pizza',

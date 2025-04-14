@@ -4,7 +4,6 @@
   justify-content: center;
   padding-bottom: 10px;
 }
-
 .btn-delivery-main {
   box-shadow: 4px 4px 8px var(--shadow);
   margin-top: 10px;
@@ -15,7 +14,6 @@
   height: 65px;
   border-radius: 4px; 
 }
-
 .btn-delivery {
   box-shadow: 4px 4px 8px var(--shadow);
   margin-bottom: 10px;
@@ -26,13 +24,11 @@
   border-radius: 4px;
   background-color: aliceblue;
 }
-
 @media (min-width: 768px) {
   .delivery p{
     padding-left: 400px;
     padding-right: 400px;
   }
-
   .delivery h4{
     padding-left: 400px;
     padding-right: 400px;

@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='page-color page-margin page-padding'>
-      <App />
+      <App/>
     </div>
   </React.StrictMode>
 );

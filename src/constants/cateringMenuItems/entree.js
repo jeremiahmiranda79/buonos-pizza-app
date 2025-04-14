@@ -12,7 +12,6 @@ export const ENTREE = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'Entree',
@@ -26,7 +25,6 @@ export const ENTREE = [
     size3: null,
     price3: null
   },
-
   {
     id: 3,
     category: 'Entree',
@@ -40,7 +38,6 @@ export const ENTREE = [
     size3: null,
     price3: null
   },
-
   {
     id: 4,
     category: 'Entree',
@@ -54,7 +51,6 @@ export const ENTREE = [
     size3: null,
     price3: null
   },
-
   {
     id: 5,
     category: 'Entree',
@@ -68,7 +64,6 @@ export const ENTREE = [
     size3: null,
     price3: null
   },
-
   {
     id: 6,
     category: 'Entree',
@@ -82,7 +77,6 @@ export const ENTREE = [
     size3: null,
     price3: null
   },
-
   {
     id: 7,
     category: 'Entree',
@@ -96,7 +90,6 @@ export const ENTREE = [
     size3: null,
     price3: null
   },
-
   {
     id: 8,
     category: 'Entree',

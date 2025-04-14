@@ -3,8 +3,8 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import { CATEGORIES_CATERING } from '../../constants/cateringMenuItems/categoriesCatering';
-import { DESSERT } from '../../constants/cateringMenuItems/dessert';
+import {CATEGORIES_CATERING} from '../../constants/cateringMenuItems/categoriesCatering';
+import {DESSERT} from '../../constants/cateringMenuItems/dessert';
  
 const Dessert = () => {
   return (

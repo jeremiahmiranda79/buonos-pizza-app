@@ -12,7 +12,6 @@ export const APPETIZER = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'Appetizer',
@@ -26,7 +25,6 @@ export const APPETIZER = [
     size3: null,
     price3: null
   },
-
   {
     id: 3,
     category: 'Appetizer',
@@ -40,7 +38,6 @@ export const APPETIZER = [
     size3: null,
     price3: null
   },
-
   {
     id: 4,
     category: 'Appetizer',
@@ -54,7 +51,6 @@ export const APPETIZER = [
     size3: null,
     price3: null
   },
-
   {
     id: 5,
     category: 'Appetizer',
@@ -68,7 +64,6 @@ export const APPETIZER = [
     size3: null,
     price3: null
   },
-
   {
     id: 6,
     category: 'Appetizer',

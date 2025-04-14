@@ -7,11 +7,11 @@ function App() {
   const userRoutes = useUserRoutes();
   return (
     <Router>
-      <Header />
+      <Header/>
       <Routes>
         {userRoutes}
       </Routes>
-      <Footer />
+      <Footer/>
     </Router> 
   );
 }

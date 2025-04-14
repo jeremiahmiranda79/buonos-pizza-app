@@ -61,7 +61,7 @@ const Footer = () => {
           /> 
         </p>
         <p style={{textAlign: 'center', marginBottom: '0px'}}>{INFORMATION[0].copy_right}</p>
-        <p style={{textAlign: 'center', marginBottom: '10px', fontWeight: 'bold' }}>{INFORMATION[0].powered_by}</p>
+        <p style={{textAlign: 'center', marginBottom: '10px', fontWeight: 'bold'}}>{INFORMATION[0].powered_by}</p>
       </footer>
     </div>
   );

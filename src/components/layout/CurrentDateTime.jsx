@@ -13,7 +13,7 @@ function CurrentDateTime() {
       <p 
         className='x'
         style={{marginTop: '10px', marginBottom: '0px', fontWeight: 'bolder'}}>
-        Current Date: {now.toLocaleDateString()} <br />
+        Current Date: {now.toLocaleDateString()}<br/>
         Current Time: {now.toLocaleTimeString()}
       </p>
     </>

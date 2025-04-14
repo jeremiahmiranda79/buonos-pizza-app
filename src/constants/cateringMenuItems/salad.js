@@ -12,7 +12,6 @@ export const SALAD = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'Salad',
@@ -26,7 +25,6 @@ export const SALAD = [
     size3: null,
     price3: null
   },
-
   {
     id: 3,
     category: 'Salad',
@@ -40,7 +38,6 @@ export const SALAD = [
     size3: null,
     price3: null
   },
-
   {
     id: 4,
     category: 'Salad',

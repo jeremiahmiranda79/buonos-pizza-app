@@ -199,4 +199,4 @@ export  const TOPPINGS_PIZZA = [
     priceSlice: 1.50,
     priceGlutenFree: 3.50
   },
-]
+];

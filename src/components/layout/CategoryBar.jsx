@@ -4,7 +4,7 @@ import '../../css/nav_bar.css';
 
 const CategoryBar = () => {
   return (
-    <div className="main-container" >
+    <div className="main-container">
       <div className="tab-nav-bar">
         <div className="tab-navigation">
           <ul className="tab-menu">

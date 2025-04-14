@@ -11,10 +11,8 @@ export const ENTREE = [
     price2: null,
     size3: null,
     price3: null,
-
     isPasta: true
   },
-
   {
     id: 2,
     category: 'Entree',
@@ -27,10 +25,8 @@ export const ENTREE = [
     price2: null,
     size3: null,
     price3: null,
-
     isPasta: true
   },
-
   {
     id: 3,
     category: 'Entree',
@@ -43,10 +39,8 @@ export const ENTREE = [
     price2: null,
     size3: null,
     price3: null,
-
     isPasta: false
   },
-
   {
     id: 4,
     category: 'Entree',
@@ -59,10 +53,8 @@ export const ENTREE = [
     price2: null,
     size3: null,
     price3: null,
-
     isPasta: false
   },
-
   {
     id: 5,
     category: 'Entree',
@@ -75,10 +67,8 @@ export const ENTREE = [
     price2: null,
     size3: null,
     price3: null,
-
     isPasta: true
   },
-
   {
     id: 6,
     category: 'Entree',
@@ -91,10 +81,8 @@ export const ENTREE = [
     price2: null,
     size3: null,
     price3: null,
-
     isPasta: true
   },
-
   {
     id: 7,
     category: 'Entree',
@@ -107,10 +95,8 @@ export const ENTREE = [
     price2: null,
     size3: null,
     price3: null,
-
     isPasta: true
   },
-
   {
     id: 8,
     category: 'Entree',
@@ -123,7 +109,6 @@ export const ENTREE = [
     price2: null,
     size3: null,
     price3: null,
-
     isPasta: true
   },
 ];

@@ -11,14 +11,11 @@ export const PASTA = [
     price2: 60,
     size3: null,
     price3: null,
-
     addBrocoli: 'Add Broccoli',
     addBrocoliPrice: 15,
-
     addChicken: 'Add Chicken',
     addChickenPrice: 30
   },
-
   {
     id: 2,
     category: 'Pasta',
@@ -31,14 +28,11 @@ export const PASTA = [
     price2: 60,
     size3: null,
     price3: null,
-
     addBrocoli: 'Add Broccoli',
     addBrocoliPrice: 15,
-
     addChicken: 'Add Chicken',
     addChickenPrice: 30
   },
-
   {
     id: 3,
     category: 'Pasta',
@@ -51,14 +45,11 @@ export const PASTA = [
     price2: 120,
     size3: null,
     price3: null,
-
     addBrocoli: 'Add Broccoli',
     addBrocoliPrice: 15,
-
     addChicken: 'Add Chicken',
     addChickenPrice: 30
   },
-
   {
     id: 4,
     category: 'Pasta',
@@ -71,10 +62,8 @@ export const PASTA = [
     price2: 120,
     size3: null,
     price3: null,
-
     addBrocoli: 'Add Broccoli',
     addBrocoliPrice: 15,
-
     addChicken: 'Add Chicken',
     addChickenPrice: 30
   },

@@ -12,7 +12,6 @@ export const COLD_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'ColdSub',
@@ -26,7 +25,6 @@ export const COLD_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 3,
     category: 'ColdSub',
@@ -40,7 +38,6 @@ export const COLD_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 4,
     category: 'ColdSub',
@@ -54,7 +51,6 @@ export const COLD_SUB = [
     size3: null,
     price3: null
   },
-
   {
     id: 5,
     category: 'ColdSub',
@@ -68,5 +64,4 @@ export const COLD_SUB = [
     size3: null,
     price3: null
   },
-
 ];

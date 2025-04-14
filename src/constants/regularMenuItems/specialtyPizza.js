@@ -12,7 +12,6 @@ export const SPECIALTY_PIZZA = [
     size3: null,
     price3: null
   },
-
   {
     id: 2,
     category: 'Specialty Pizza',
@@ -26,7 +25,6 @@ export const SPECIALTY_PIZZA = [
     size3: 'Extra Large 18 inch, 8 cut',
     price3: 21.99
   },
-
   {
     id: 3,
     category: 'Specialty Pizza',
@@ -40,7 +38,6 @@ export const SPECIALTY_PIZZA = [
     size3: 'Extra Large 18 inch, 8 cut',
     price3: 28.99
   },
-
   {
     id: 4,
     category: 'Specialty Pizza',
@@ -54,7 +51,6 @@ export const SPECIALTY_PIZZA = [
     size3: 'Extra Large 18 inch, 8 cut',
     price3: 28.99
   },
-
   {
     id: 5,
     category: 'Specialty Pizza',
@@ -68,7 +64,6 @@ export const SPECIALTY_PIZZA = [
     size3: 'Extra Large 18 inch, 8 cut',
     price3: 31.99
   },
-
   {
     id: 6,
     category: 'Specialty Pizza',

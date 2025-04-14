@@ -12,7 +12,6 @@ export const GLUTEN_FREE = [
     size3: null,
     price3: null
   },
-
   {
     id: 2, 
     category: 'Pizza',

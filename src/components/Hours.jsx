@@ -5,7 +5,7 @@ import {Image} from 'react-bootstrap';
 
 const Hours = () => {
   return (
-    <div style={{margin: '100px 10px 10px 10px'}} >  
+    <div style={{margin: '100px 10px 10px 10px'}}>  
       <h1 rel="preload" style={{textAlign: 'center'}}>Hours</h1>
       <Image rel="preload" fetchPriority="high" src='/images/photos/header-2.webp' alt='store front' fluid/>
       <div style={{textAlign: 'center'}}><CurrentDateTime/></div>
