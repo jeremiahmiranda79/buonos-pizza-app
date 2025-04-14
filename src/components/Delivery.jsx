@@ -4,7 +4,7 @@ import '../css/delivery.css';
 
 const Delivery = () => {
   return (
-    <div style={{margin: '100px 10px 10px 10px'}} >
+    <div style={{margin: '100px 10px 10px 10px'}}>
       <h1 rel="preload" style={{textAlign: 'center'}}>Delivery</h1>
       <Information/>
       <h2 style={{textAlign: 'center'}}>Delivery Service Thru 3rd Party</h2>

@@ -38,7 +38,7 @@ const SideOrder = () => {
               <Card.Img variant="top" src={item.images} alt={item.name}/>
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text style={{ marginBottom: '5px' }} >{item.description}</Card.Text>
+                <Card.Text style={{marginBottom: '5px'}} >{item.description}</Card.Text>
                 {item.size1 ? <Card.Text style={{marginBottom: '0px'}}>{item.size1} ${item.price1.toFixed(2)}</Card.Text> : null}
                 {item.size2 ? <Card.Text style={{marginBottom: '0px'}}>{item.size2} ${item.price2.toFixed(2)}</Card.Text> : null}
                 {item.size3 ? <Card.Text style={{marginBottom: '0px'}}>{item.size3} ${item.price3.toFixed(2)}</Card.Text> : null}

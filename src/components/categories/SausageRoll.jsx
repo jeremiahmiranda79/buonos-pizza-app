@@ -10,7 +10,7 @@ import {SAUSAGE_ROLL} from '../../constants/regularMenuItems/sausageRoll';
 const SausageRoll = () => {
   return (
     <Container id={PRODUCT_CATEGORIES[5].id}>
-      <h1 className='Title' style={{ marginTop: '10px', marginBottom: '10px' }}>{PRODUCT_CATEGORIES[5].name}</h1>
+      <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[5].name}</h1>
       <Image style={{marginBottom: '10px'}} src="/images/categories/sausage-roll.webp" fluid alt={PRODUCT_CATEGORIES[5].name}/>
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {SAUSAGE_ROLL.map((item) => (

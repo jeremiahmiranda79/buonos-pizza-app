@@ -4,7 +4,6 @@ import App from './App';
 import '../src/css/app.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
 root.render(
   <React.StrictMode>
     <div className='page-color page-margin page-padding'>
