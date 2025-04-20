@@ -50,7 +50,7 @@ const Specials = () => {
       <p className='x' style={{textAlign: 'center'}}>Available for dine in or take out, open to close on NFL game day's only(Sunday, Monday, Thursday).</p>
       <h2 style={{textAlign: 'center', marginTop: '10px'}}>Lunch Specials</h2>
       <div style={{textAlign: 'center', marginTop: '10px'}}>
-        <p className='x'style={{marginBottom: '0px'}}>Available Monday-Friday opening to 4pm</p>
+        <p className='x'style={{marginBottom: '0px'}}>Available Monday-Friday 11am to 4pm</p>
         <p className='y'>(Fountain Drink included)</p>
         <p className='x' style={{marginBottom: '0px'}}>2 Slice of Cheese</p>
         <p className='x' style={{marginBottom: '0px'}}>$8.99</p>
