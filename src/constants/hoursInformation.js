@@ -21,10 +21,10 @@ export const HOURS_INFORMATION = [
   },
   {
     id: 6,
-    date: 'Friday 11 am - 10 pm'
+    date: 'Friday 11 am - 9 pm'
   },
   {
     id: 7,
-    date: 'Saturday 11 am - 10 pm'
+    date: 'Saturday 11 am - 9 pm'
   },
 ];
