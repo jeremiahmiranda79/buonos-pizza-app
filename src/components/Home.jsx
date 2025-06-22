@@ -9,6 +9,9 @@ import Image from 'react-bootstrap/Image';
 import '../css/video_player.css';
 import '../css/carousel.css';
 
+
+// import  '../css/specials.css';
+
 const Home = () => {
   return (
     <div style={{margin: '100px 10px 10px 10px'}}>
@@ -106,6 +109,26 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
       </center>
+
+      <div style={{margin: '10px 25px 10px 25px'}}>
+        <h2 style={{textAlign: 'center'}}>Check Out Our Catering</h2>
+        <p style={{textAlign: 'center'}}>
+          <img 
+            rel="preload"
+            fetchPriority="high"
+            src="/images/specials/catering.jpg" 
+            alt="catering" 
+            // className="Image"
+            className="d-block w-100"
+          />
+        </p>
+        <p className='x' style={{textAlign: 'center', marginBottom: '0px', fontWeight: 'bold'}}>Catering for all events</p>
+        {/* <p className='x' style={{textAlign: 'center', marginBottom: '0px'}}>XL 18" $27.99 plus tax</p> */}
+        <p className='y' style={{textAlign: 'center', marginBottom: '0px'}}>Let us cater your upcoming event the Buonos way. </p>
+        {/* <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only!*</p> */}
+        <p style={{textAlign: 'center', marginTop: '20px'}}><a href="/catering" className="active btn btn-primary">View our catering options here!</a></p>
+      </div>
+
       <h2 style={{textAlign: 'center', marginTop: '10px'}}>Buonos Specialties</h2>
       <p className='x' style={{textAlign: 'center'}}>We refuse to compromise. We use the freshest and finest ingredients. Our pizza dough, pizza sauce, and pasta sauce are made fresh daily in house.</p> 
       <p style={{textAlign: 'center'}}><a href="/specials" className="active btn btn-primary" >View our specialty options here!</a></p>  
