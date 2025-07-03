@@ -27,8 +27,9 @@ export const BEVERAGE = [
     price3: null,
     isFountain: false
   },
+
   {
-    id: 3,
+    id: 10,
     category: 'Beverage',
     name: 'Bottled Water',
     description: '16 oz bottled water.',
@@ -42,7 +43,7 @@ export const BEVERAGE = [
     isFountain: false
   },
   {
-    id: 4,
+    id: 11,
     category: 'Beverage',
     name: 'Bottled Tea',
     description: 'Bottled Tea.',
@@ -56,7 +57,7 @@ export const BEVERAGE = [
     isFountain: false
   },
   // {
-  //   id: 5,
+  //   id: 12,
   //   category: 'Beverage',
   //   name: 'Arizona Lemonade Stand',
   //   description: 'Made with real lemons, fruits,and other natural flavors.',
@@ -69,8 +70,9 @@ export const BEVERAGE = [
   //   price3: null,
   //   isFountain: false
   // },
+
   {
-    id: 6,
+    id: 20,
     category: 'Beverage',
     name: 'Dr Browns Soda',
     description: 'A New York Classic. Black Cherry, Root Beer, or Cream Soda.',
@@ -84,7 +86,7 @@ export const BEVERAGE = [
     isFountain: false
   },
   {
-    id: 7,
+    id: 21,
     category: 'Beverage',
     name: 'Yoohoo',
     description: 'A New York Classic. Chocolate drink.',
@@ -97,8 +99,52 @@ export const BEVERAGE = [
     price3: null,
     isFountain: false
   },
+
   {
-    id: 8,
+    id: 30,
+    category: 'Beverage',
+    name: 'Aranciata Blood Orange Soda',
+    description: 'Aranciata Blood Orange Soda From Italy.',
+    images: '/images/menu-items/beverage/aranciata-blood-orange-soda-from-italy.jpg',
+    size1: 'Personal Size Can',
+    price1: 3.00,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null,
+    isFountain: false
+  },
+  {
+    id: 31,
+    category: 'Beverage',
+    name: 'Manhattan Special Espresso Soda',
+    description: 'Manhattan Special Espresso Soda 12 OZ Bottle.',
+    images: '/images/menu-items/beverage/manhattan-special-espresso-soda.jpg',
+    size1: '12 OZ Bottle',
+    price1: 3.75,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null,
+    isFountain: false
+  },
+  {
+    id: 32,
+    category: 'Beverage',
+    name: 'San Benedetto Peach Iced Tea',
+    description: 'San Benedetto Peach Iced Tea From Italy.',
+    images: '/images/menu-items/beverage/san benedetto-peach-iced-tea-from-italy.jpg',
+    size1: '16.9 FL OZ',
+    price1: 3.00,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null,
+    isFountain: false
+  },
+
+  {
+    id: 40,
     category: 'Beverage',
     name: 'Domestic Beer',
     description: 'Must be consumed in the restaurant.',
@@ -112,7 +158,7 @@ export const BEVERAGE = [
     isFountain: false
   },
   {
-    id: 9,
+    id: 41,
     category: 'Beverage',
     name: 'Imported Beer',
     description: 'Must be consumed in the restaurant.',
@@ -125,8 +171,9 @@ export const BEVERAGE = [
     price3: null,
     isFountain: false
   },
+
   {
-    id: 10,
+    id: 50,
     category: 'Beverage',
     name: 'House Red Wine',
     description: 'Must be consumed in the restaurant.',
@@ -140,7 +187,7 @@ export const BEVERAGE = [
     isFountain: false
   },
   {
-    id: 11,
+    id: 51,
     category: 'Beverage',
     name: 'House White Wine',
     description: 'Must be consumed in the restaurant.',
