@@ -1,6 +1,34 @@
 export const APPETIZER = [
+  // {
+  //   id: 10,
+  //   category: 'Appetizer',
+  //   name: 'Garlic Knots',
+  //   description: 'New York style classic. Brushed and baked with garlic, butter, olive oil, and parmesan cheese. Served with marinara.',
+  //   images: '/images/menu-items/app/garlic-knots.jpg',
+  //   size1: 'Six piece',
+  //   price1: 4.50,
+  //   size2: 'Twelve piece',
+  //   price2: 7.50,
+  //   size3: null,
+  //   price3: null,
+  //   isWings: false
+  // },
+  // {
+  //   id: 11,
+  //   category: 'Appetizer',
+  //   name: 'Garlic Knots with Mozzarella',
+  //   description: 'New York style classic. Brushed and baked with garlic, butter, olive oil, and parmesan cheese. Twice baked with melty mozzarella cheeses. Served with marinara.',
+  //   images: '/images/menu-items/app/garlic-knots-mozzarella.jpg',
+  //   size1: 'Six piece',
+  //   price1: 5.50,
+  //   size2: 'Twelve piece',
+  //   price2: 8.50,
+  //   size3: null,
+  //   price3: null,
+  //   isWings: false
+  // },
   {
-    id: 1,
+    id: 12,
     category: 'Appetizer',
     name: 'Garlic Bread',
     description: 'Foot long Italian bread brushed with garlic herb butter & lightly toasted. Served with marinara.',
@@ -14,7 +42,7 @@ export const APPETIZER = [
     isWings: false
   },
   {
-    id: 2,
+    id: 13,
     category: 'Appetizer',
     name: 'Sicilian Garlic Bread',
     description: 'Foot long Italian bread brushed with garlic herb butter, topped with mozzarella, & lightly toasted. Served with marinara.',
@@ -27,42 +55,15 @@ export const APPETIZER = [
     price3: null,
     isWings: false
   },
+
   {
-    id: 3,
-    category: 'Appetizer',
-    name: 'Meatballs & Ricotta',
-    description: 'Twin jumbo meatballs accompanied by marinara sauce, ricotta & parmesan.',
-    images: '/images/menu-items/app/meatballs-ricotta.webp',
-    size1: 'Two piece',
-    price1: 6.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null,
-    isWings: false
-  },
-  {
-    id: 4,
-    category: 'Appetizer',
-    name: 'Meatball Sliders',
-    description: 'Five crostinis topped with our meatballs, marinara sauce, oregenao, & mozzarella.',
-    images: '/images/menu-items/app/meatball-sliders.webp',
-    size1: 'Five piece',
-    price1: 8.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null,
-    isWings: false
-  },
-  {
-    id: 5,
+    id: 20,
     category: 'Appetizer',
     name: 'Fries',
     description: 'Tossed with salt, black pepper, garlic seasoning, oregano, & parsley.',
     images: '/images/menu-items/app/fries.webp',
     size1: 'Personal size',
-    price1: 8.99,
+    price1: 3.99,
     size2: null,
     price2: null,
     size3: null,
@@ -70,7 +71,7 @@ export const APPETIZER = [
     isWings: false
   },
   {
-    id: 6,
+    id: 21,
     category: 'Appetizer',
     name: 'Pepperoni Pizza Fries',
     description: 'Bounos-style; seasoned french fries baked with pepperoni, mozzarella, oregano, & finished with marinara sauce.',
@@ -84,7 +85,7 @@ export const APPETIZER = [
     isWings: false
   },
   {
-    id: 7,
+    id: 22,
     category: 'Appetizer',
     name: 'NJ Style Disco Fries',
     description: 'New Jersey diner-style; seasoned french fries baked with mozzarella, topped with a classic brown chicken gravy, & parsley.',
@@ -97,8 +98,9 @@ export const APPETIZER = [
     price3: null,
     isWings: false
   },
+
   {
-    id: 8,
+    id: 30,
     category: 'Appetizer',
     name: 'Fried Mushrooms',
     description: 'Cremini mushrooms, coated in a light & crispy seasoned batter, then deep fried to golden brown perfection. Served with ranch dressing.',
@@ -112,7 +114,7 @@ export const APPETIZER = [
     isWings: false
   },
   {
-    id: 9,
+    id: 31,
     category: 'Appetizer',
     name: 'Fried Zucchini',
     description: 'Fresh zucchini sticks, Italian bread crumb dredged, then deep fried to golden brown perfection. Served with ranch dressing.',
@@ -126,7 +128,7 @@ export const APPETIZER = [
     isWings: false
   },
   {
-    id: 10,
+    id: 32,
     category: 'Appetizer',
     name: 'Fried Mozzarella Sticks',
     description: 'Six mozzarella sticks, Italian bread crumb dredged, then deep fried to golden brown perfection. Served with marinara sauce.',
@@ -140,7 +142,7 @@ export const APPETIZER = [
     isWings: false
   },
   {
-    id: 11,
+    id: 33,
     category: 'Appetizer',
     name: 'Fried Ravioli',
     description: 'Six ricotta stuffed ravioli, lightly Italian bread crumb dredged, then deep fried to golden brown perfection. Served with marinara sauce.',
@@ -153,8 +155,38 @@ export const APPETIZER = [
     price3: null,
     isWings: false
   },
+
   {
-    id: 12,
+    id: 40,
+    category: 'Appetizer',
+    name: 'Meatballs & Ricotta',
+    description: 'Twin jumbo meatballs accompanied by marinara sauce, ricotta & parmesan.',
+    images: '/images/menu-items/app/meatballs-ricotta.webp',
+    size1: 'Two piece',
+    price1: 6.99,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null,
+    isWings: false
+  },
+  {
+    id: 41,
+    category: 'Appetizer',
+    name: 'Meatball Sliders',
+    description: 'Five crostinis topped with our meatballs, marinara sauce, oregenao, & mozzarella.',
+    images: '/images/menu-items/app/meatball-sliders.webp',
+    size1: 'Five piece',
+    price1: 8.99,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null,
+    isWings: false
+  },
+  
+  {
+    id: 50,
     category: 'Appetizer',
     name: 'Traditional Chicken Wings',
     description: 'Bone-in fried chicken wings tossed in your choice of sauce. Served with celery sticks, & choice of dressing.',
@@ -168,7 +200,7 @@ export const APPETIZER = [
     isWings: true
   },
   {
-    id: 13,
+    id: 51,
     category: 'Appetizer',
     name: 'Boneless Chicken Wings',
     description: 'Boneless fried chicken pieces tossed in your choice of sauce. Served with celery sticks, & choice of dressing.',

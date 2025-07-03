@@ -9,9 +9,6 @@ import Image from 'react-bootstrap/Image';
 import '../css/video_player.css';
 import '../css/carousel.css';
 
-
-// import  '../css/specials.css';
-
 const Home = () => {
   return (
     <div style={{margin: '100px 10px 10px 10px'}}>
@@ -118,14 +115,13 @@ const Home = () => {
             fetchPriority="high"
             src="/images/specials/catering.jpg" 
             alt="catering" 
-            // className="Image"
             className="d-block w-100"
           />
         </p>
+        <p className='x' style={{textAlign: 'center', marginBottom: '0px', fontWeight: 'bold'}}>*Images from left to right*</p>
+        <p className='x' style={{textAlign: 'center', marginBottom: '0px'}}>Antipasto Salad, Chicken Broccoli Fettucini Alfredo, Meatballs Side Dish, & Lasagna Dinner</p>
         <p className='x' style={{textAlign: 'center', marginBottom: '0px', fontWeight: 'bold'}}>Catering for all events</p>
-        {/* <p className='x' style={{textAlign: 'center', marginBottom: '0px'}}>XL 18" $27.99 plus tax</p> */}
         <p className='y' style={{textAlign: 'center', marginBottom: '0px'}}>Let us cater your upcoming event the Buonos way. </p>
-        {/* <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>* Available in house only!*</p> */}
         <p style={{textAlign: 'center', marginTop: '20px'}}><a href="/catering" className="active btn btn-primary">View our catering options here!</a></p>
       </div>
 
@@ -136,6 +132,7 @@ const Home = () => {
       <p className='x' style={{textAlign: 'center'}}>With any purchase of a large, or extra-large pizza pie, you will receive a magnet. Collect 8 magnets and get a large 1 topping pizza pie for FREE!</p>
       <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>*Valid only on dine in or in person take out orders*</p>
       <p className='y' style={{fontWeight: 'bold', textAlign: 'center'}}>*Magnets are not exchangeable between store locations*</p> 
+      
       <Container>
         <center>
           <Row>
@@ -160,6 +157,7 @@ const Home = () => {
           </Row>
         </center>
       </Container>
+
       <h2 style={{textAlign: 'center', marginTop: '10px'}}>Take Out Or Dine In</h2>
       <p className='x' style={{textAlign: 'center'}}>Come see us in person! To take full advantage of our quality the best option is to dine in, or reserve an in store pick up order. We love our customers so feel free to visit during our normal business hours.</p>
       <p style={{textAlign: 'center'}}><a href="/specials" className="active btn btn-primary">View our menu options here!</a></p>
