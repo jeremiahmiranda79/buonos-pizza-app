@@ -28,7 +28,7 @@ function MyVerticallyCenteredModal(props) {
 const SpecialtyPizza = () => {
   const [modalShow, setModalShow] = React.useState(false);
   return (
-    <Container id={PRODUCT_CATEGORIES[1].id}>
+    <Container id={PRODUCT_CATEGORIES[1].id} style={{scrollMarginTop: '150px'}}>
       <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[1].name}</h1>
       <Image style={{marginBottom: '10px'}} src="/images/categories/pizza-special.webp" fluid alt={PRODUCT_CATEGORIES[1].name}/>
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
