@@ -1,32 +1,33 @@
 export const APPETIZER = [
-  // {
-  //   id: 10,
-  //   category: 'Appetizer',
-  //   name: 'Garlic Knots',
-  //   description: 'New York style classic. Brushed and baked with garlic, butter, olive oil, and parmesan cheese. Served with marinara.',
-  //   images: '/images/menu-items/app/garlic-knots.jpg',
-  //   size1: 'Six piece',
-  //   price1: 4.50,
-  //   size2: 'Twelve piece',
-  //   price2: 7.50,
-  //   size3: null,
-  //   price3: null,
-  //   isWings: false
-  // },
-  // {
-  //   id: 11,
-  //   category: 'Appetizer',
-  //   name: 'Garlic Knots with Mozzarella',
-  //   description: 'New York style classic. Brushed and baked with garlic, butter, olive oil, and parmesan cheese. Twice baked with melty mozzarella cheeses. Served with marinara.',
-  //   images: '/images/menu-items/app/garlic-knots-mozzarella.jpg',
-  //   size1: 'Six piece',
-  //   price1: 5.50,
-  //   size2: 'Twelve piece',
-  //   price2: 8.50,
-  //   size3: null,
-  //   price3: null,
-  //   isWings: false
-  // },
+  {
+    id: 10,
+    category: 'Appetizer',
+    name: 'Garlic Knots',
+    description: 'New York style classic. Brushed and baked with garlic, butter, olive oil, and parmesan cheese. Served with marinara.',
+    images: '/images/menu-items/app/garlic-knots.jpg',
+    size1: 'Six piece',
+    price1: 3.75,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null,
+    isWings: false
+  },
+  {
+    id: 11,
+    category: 'Appetizer',
+    name: 'Garlic Knots with Mozzarella',
+    description: 'New York style classic. Brushed and baked with garlic, butter, olive oil, and parmesan cheese. Twice baked with melty mozzarella cheeses. Served with marinara.',
+    images: '/images/menu-items/app/garlic-knots-mozzarella.jpg',
+    size1: 'Six piece',
+    price1: 4.50,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null,
+    isWings: false
+  },
+
   {
     id: 12,
     category: 'Appetizer',
