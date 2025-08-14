@@ -37,30 +37,30 @@ export const PRODUCT_CATEGORIES = [
   },
   { 
     id: 9,
-    name: 'Entree' 
-  },
-  { 
-    id: 10,
-    name: 'Hot Sub' 
-  },
-  { 
-    id: 11,
-    name: 'Cold Sub' 
-  },
-  { 
-    id: 12,
-    name: 'Side Order' 
-  },
-  { 
-    id: 13,
     name: 'Dessert' 
   },
   { 
-    id: 14,
+    id: 10,
     name: 'Beverage' 
   },
   { 
-    id: 15,
+    id: 11,
     name: 'NY Specialty' 
   }
+  // { 
+  //   id: 9,
+  //   name: 'Entree' 
+  // },
+  // { 
+  //   id: 10,
+  //   name: 'Hot Sub' 
+  // },
+  // { 
+  //   id: 11,
+  //   name: 'Cold Sub' 
+  // },
+  // { 
+  //   id: 12,
+  //   name: 'Side Order' 
+  // },
 ];
