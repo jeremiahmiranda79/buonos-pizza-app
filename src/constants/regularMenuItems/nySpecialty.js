@@ -114,7 +114,7 @@ export const NY_SPECIALTY = [
     size2: null,
     price2: null,
     size3: null,
-    price3: null
+    price3: null,
   },
   {
     id: 10,

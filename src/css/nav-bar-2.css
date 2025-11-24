@@ -8,7 +8,7 @@ nav {
   z-index: 100;
   position: fixed;
   top: 0;
-  padding-right: 35%;
+  /* padding-right: 35%; */
 }
 .links-container {
   height: 100%;
@@ -58,7 +58,7 @@ nav button:hover {
 nav .home-link {
   display: flex;
   justify-content: flex-start;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 nav .login-link img {
   background: rgba(95, 14, 14, 0.555);

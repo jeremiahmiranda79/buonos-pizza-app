@@ -11,7 +11,9 @@ export const APPETIZER = [
     price2: 7.50,
     size3: null,
     price3: null,
-    isWings: false
+    isWings: false,
+
+    // link: 'https://online.skytab.com/ba1259fa275c3fa135327dc3dba6bc5f/4daffcd1-6265-48d2-a412-f15829cd04d5',
   },
 
   {
@@ -26,7 +28,7 @@ export const APPETIZER = [
     price2: 8.50,
     size3: null,
     price3: null,
-    isWings: false
+    isWings: false,
   },
 
   {
@@ -71,7 +73,9 @@ export const APPETIZER = [
     price2: null,
     size3: null,
     price3: null,
-    isWings: false
+    isWings: false,
+
+    link: ''
   },
 
   {
@@ -223,5 +227,20 @@ export const APPETIZER = [
     price3: null,
     isWings: true
   },
+
+  // {
+  //   id: 16,
+  //   category: 'Appetizer',
+  //   name: 'Arancini',
+  //   description: 'Italian rice balls that are stuffed, coated with breadcrumbs and deep-fried. Served with a pink vodka sauce.',
+  //   images: '/images/icons-logos/buonos-logo-3.webp',
+  //   size1: 'Three Jumbo Rice Balls',
+  //   price1: 9.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null,
+  //   isWings: false
+  // },
   
 ];

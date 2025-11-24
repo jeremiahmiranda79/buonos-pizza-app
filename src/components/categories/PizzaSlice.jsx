@@ -9,6 +9,7 @@ import {PIZZA_SLICE} from '../../constants/regularMenuItems/pizzaSlice';
 import {TOPPINGS_PIZZA} from '../../constants/toppingsPizza';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { CardFooter } from 'react-bootstrap';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -41,10 +42,15 @@ const PizzaSlice = () => {
                 <Card.Text style={{marginBottom: '5px'}}>{item.description}</Card.Text>
                 {item.size1 ? <Card.Text style={{marginBottom: '0px'}}>{item.size1} ${item.price1.toFixed(2)}</Card.Text> : null}
                 {item.size2 ? <Card.Text style={{marginBottom: '0px'}}>{item.size2} ${item.price2.toFixed(2)}</Card.Text> : null}
-                {item.size3 ? <Card.Text style={{marginBottom: '0px'}}>{item.size3} ${item.price3.toFixed(2)}</Card.Text> : null}
-                <Button style={{marginTop: '10px'}} variant="primary" onClick={() => setModalShow(true)}>See topping choices</Button>
-                <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)}/>      
+                {item.size3 ? <Card.Text style={{marginBottom: '0px'}}>{item.size3} ${item.price3.toFixed(2)}</Card.Text> : null}                    
               </Card.Body>
+
+              <CardFooter className='text-muted'>
+                <Button style={{marginBottom: '7.5px', width: '100%'}} variant="primary" onClick={() => setModalShow(true)}>See topping choices</Button>
+                
+                <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)}/>  
+
+              </CardFooter>
             </Card>
           </Col>
         ))}

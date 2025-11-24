@@ -6,6 +6,8 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import {PRODUCT_CATEGORIES} from '../../constants/regularMenuItems/categoriesRegular';
 import {STROMBOLI} from '../../constants/regularMenuItems/stromboli';
+import Button from 'react-bootstrap/Button';
+import { CardFooter } from 'react-bootstrap';
 
 const Stromboli = () => {
   return (
@@ -25,6 +27,9 @@ const Stromboli = () => {
                 {item.size2 ? <Card.Text style={{marginBottom: '0px'}}>{item.size2} ${item.price2.toFixed(2)}</Card.Text> : null}
                 {item.size3 ? <Card.Text style={{marginBottom: '0px'}}>{item.size3} ${item.price3.toFixed(2)}</Card.Text> : null}
               </Card.Body>
+              <CardFooter className='text-muted' >
+                {/* <a href='https://online.skytab.com/ba1259fa275c3fa135327dc3dba6bc5f/order-settings'><Button variant="primary" style={{width: '100%'}}>Start An Online Pickup Order <i class="fa-solid fa-cart-shopping"></i></Button></a> */}
+              </CardFooter>
             </Card>
           </Col>
         ))}

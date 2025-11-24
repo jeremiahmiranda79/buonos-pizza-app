@@ -12,16 +12,17 @@ import Dessert from '../categories/Dessert';
 import Beverage from '../categories/Beverage';
 import NYSpecialty from '../categories/NYSpecialty';
 import CategoryBar from '../layout/CategoryBar';
-// import Entree from '../categories/Entree';
-// import HotSub from '../categories/HotSub';
-// import ColdSub from '../categories/ColdSub';
-// import SideOrder from '../categories/SideOrder';
+import Entree from '../categories/Entree';
+import HotSub from '../categories/HotSub';
+import ColdSub from '../categories/ColdSub';
+import SideOrder from '../categories/SideOrder';
 import '../../css/menu_page.css';
 
 const MenuItem = () => {
   return (
     <>
       <CategoryBar/>
+
       <div className='MenuPage'>
         <Pizza/>
         <SpecialtyPizza/>
@@ -32,14 +33,15 @@ const MenuItem = () => {
         <Calzone/>
         <Stromboli/>
         <Salad/>
+        <Entree/>
+        <HotSub/>
+        <ColdSub/>
+        <SideOrder/>
         <Dessert/>
         <Beverage/>
         <NYSpecialty/>
-        {/* <Entree/> */}
-        {/* <HotSub/> */}
-        {/* <ColdSub/> */}
-        {/* <SideOrder/> */}
       </div>
+      
     </>
   );
 }

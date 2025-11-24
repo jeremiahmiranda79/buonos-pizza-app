@@ -13,7 +13,14 @@ const Home = () => {
   return (
     <div style={{margin: '100px 10px 10px 10px'}}>
       <h1 rel="preload" style={{textAlign: 'center'}}>Welcome to Buono's Pizza Williams Field</h1>
+
       <Information/>
+
+      <div style={{textAlign: 'center', marginBottom: '0px'}}>
+        <h2 style={{marginBottom: '15px'}}>Try our new online ordering option for a conveinent experience</h2>
+        <p style={{textAlign: 'center'}}><a href="/delivery" className="active btn btn-primary" >View our online ordering here!</a></p>
+      </div>  
+
       <h2 style={{textAlign: 'center'}}>How we do it</h2>
       <center>
         <div className="video-container">

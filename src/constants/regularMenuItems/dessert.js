@@ -111,18 +111,18 @@ export const DESSERT = [
     price3: null
   },
 
-  {
-    id: 9,
-    category: 'Dessert',
-    name: 'Drakes Cakes',
-    description: 'See our more detailed options in .......',
-    images: '/images/menu-items/dessert/zeppolis.webp',
-    size1: 'A bakers dozen',
-    price1: 6.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null
-  }
+  // {
+  //   id: 9,
+  //   category: 'Dessert',
+  //   name: 'Drakes Cakes',
+  //   description: 'See our more detailed options in .......',
+  //   images: '/images/menu-items/dessert/zeppolis.webp',
+  //   size1: 'A bakers dozen',
+  //   price1: 6.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null
+  // }
 
 ];
