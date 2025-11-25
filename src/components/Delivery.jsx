@@ -9,13 +9,13 @@ const Delivery = () => {
       <h1 rel="preload" style={{textAlign: 'center'}}>Online Ordering</h1>
       <Information/>
 
-      <hr />
+      {/* <hr /> */}
 
-      <div style={{textAlign: 'center', marginBottom: '0px'}}>
+      {/* <div style={{textAlign: 'center', marginBottom: '0px'}}> */}
         {/* <h2 style={{marginBottom: '15px'}}>Online Take Out Ordering is for Pick Up And Take Out Only <br/><br /> For Delivery Services Please See The Options Listed Below</h2> */}
 
-        <h2 style={{marginBottom: '15px'}}>Online Ordering is for Pick Up And Take Out Only</h2> 
-        <p className='y'>*For Delivery Services Please See The Options Listed Below*</p>
+        {/* <h2 style={{marginBottom: '15px'}}>Online Ordering is for Pick Up And Take Out Only</h2> 
+        <p className='y'>*For Delivery Services Please See The Options Listed Below*</p> */}
 
         {/* <p > */}
           {/* <a href="https://online.skytab.com/ba1259fa275c3fa135327dc3dba6bc5f/order-settings">
@@ -25,10 +25,12 @@ const Delivery = () => {
               className="btn-delivery-main">
             </img>
           </a> */}
-          <p style={{textAlign: 'center'}}><a href="https://online.skytab.com/ba1259fa275c3fa135327dc3dba6bc5f/order-settings" className="active btn btn-primary" style={{fontSize: '25px'}}>Place Online Order For Pick Up</a></p>
+
+          {/* <p style={{textAlign: 'center'}}><a href="https://online.skytab.com/ba1259fa275c3fa135327dc3dba6bc5f/order-settings" className="active btn btn-primary" style={{fontSize: '25px'}}>Place Online Order For Pick Up</a></p> */}
+
           {/* <p style={{textAlign: 'center'}}><a href="/menu" className="active btn btn-primary" style={{fontSize: '25px'}}>Ordering For Pick Up</a></p> */}
         {/* </p>   */}
-      </div>    
+      {/* </div>     */}
 
       <hr />
 

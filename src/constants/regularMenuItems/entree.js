@@ -119,14 +119,14 @@ export const ENTREE = [
     category: 'Entree',
     name: 'Baked Penne',
     description: 'Penne pasta combined with ricotta, mozzarella cheese & house marinara sauce, small salad, & small Italian bread.',
-    images: '/images/menu-items/entree/pasta-sausage.webp',
+    images: '/images/icons-logos/buonos-logo-3.webp',
     size1: 'Dinner portion for one',
     price1: 17.99,
     size2: null,
     price2: null,
     size3: null,
     price3: null,
-    isPasta: true
+    isPasta: false
   },
   
 ];
