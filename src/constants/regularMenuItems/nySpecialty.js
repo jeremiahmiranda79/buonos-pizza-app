@@ -77,19 +77,19 @@ export const NY_SPECIALTY = [
     size3: null,
     price3: null
   },
-  {
-    id: 7,
-    category: 'NYSpecialty',
-    name: 'Drakes Yodels Boston Creme',
-    description: 'Frosted creme filled golden cakes.',
-    images: '/images/menu-items/ny-favorite/yodel-boston-creme.webp',
-    size1: '10 count twin wrapped',
-    price1: 6.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null
-  },
+  // {
+  //   id: 7,
+  //   category: 'NYSpecialty',
+  //   name: 'Drakes Yodels Boston Creme',
+  //   description: 'Frosted creme filled golden cakes.',
+  //   images: '/images/menu-items/ny-favorite/yodel-boston-creme.webp',
+  //   size1: '10 count twin wrapped',
+  //   price1: 6.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null
+  // },
   {
     id: 8,
     category: 'NYSpecialty',

@@ -16,10 +16,10 @@ const Home = () => {
 
       <Information/>
 
-      <div style={{textAlign: 'center', marginBottom: '0px'}}>
+      {/* <div style={{textAlign: 'center', marginBottom: '0px'}}>
         <h2 style={{marginBottom: '15px'}}>Try our new online ordering option for a conveinent experience</h2>
         <p style={{textAlign: 'center'}}><a href="/delivery" className="active btn btn-primary" >View our online ordering here!</a></p>
-      </div>  
+      </div>   */}
 
       <h2 style={{textAlign: 'center'}}>How we do it</h2>
       <center>
@@ -132,15 +132,15 @@ const Home = () => {
         <p style={{textAlign: 'center', marginTop: '20px'}}><a href="/catering" className="active btn btn-primary">View our catering options here!</a></p>
       </div>
 
-      <h2 style={{textAlign: 'center', marginTop: '10px'}}>Buonos Specialties</h2>
+      {/* <h2 style={{textAlign: 'center', marginTop: '10px'}}>Buonos Specialties</h2>
       <p className='x' style={{textAlign: 'center'}}>We refuse to compromise. We use the freshest and finest ingredients. Our pizza dough, pizza sauce, and pasta sauce are made fresh daily in house.</p> 
       <p style={{textAlign: 'center'}}><a href="/specials" className="active btn btn-primary" >View our specialty options here!</a></p>  
       <h2 style={{textAlign: 'center'}}>Loyalty Bonus</h2>
       <p className='x' style={{textAlign: 'center'}}>With any purchase of a large, or extra-large pizza pie, you will receive a magnet. Collect 8 magnets and get a large 1 topping pizza pie for FREE!</p>
       <p className='x' style={{fontWeight: 'bold', textAlign: 'center'}}>*Valid only on dine in or in person take out orders*</p>
-      <p className='y' style={{fontWeight: 'bold', textAlign: 'center'}}>*Magnets are not exchangeable between store locations*</p> 
+      <p className='y' style={{fontWeight: 'bold', textAlign: 'center'}}>*Magnets are not exchangeable between store locations*</p>  */}
       
-      <Container>
+      {/* <Container>
         <center>
           <Row>
             <Col xs={6} md={6}>
@@ -163,7 +163,7 @@ const Home = () => {
             </Col>
           </Row>
         </center>
-      </Container>
+      </Container> */}
 
       <h2 style={{textAlign: 'center', marginTop: '10px'}}>Take Out Or Dine In</h2>
       <p className='x' style={{textAlign: 'center'}}>Come see us in person! To take full advantage of our quality the best option is to dine in, or reserve an in store pick up order. We love our customers so feel free to visit during our normal business hours.</p>
