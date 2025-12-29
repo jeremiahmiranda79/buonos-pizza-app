@@ -97,7 +97,7 @@ export const APPETIZER = [
     id: 7,
     category: 'Appetizer',
     name: 'Pepperoni Pizza Fries',
-    description: 'Bounos-style; seasoned french fries baked with pepperoni, mozzarella, oregano, & finished with marinara sauce.',
+    description: 'Buonos-style; seasoned french fries baked with pepperoni, mozzarella, oregano, & finished with marinara sauce.',
     images: '/images/menu-items/app/pepperoni-pizza-fries.webp',
     size1: 'Personal size',
     price1: 9.99,
