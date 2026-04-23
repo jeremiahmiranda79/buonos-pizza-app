@@ -1,77 +1,77 @@
 export const SIDE_ORDER = [
-  {
-    id: 1,
-    category: 'SideOrder',
-    name: 'Side of Pasta',
-    description: 'Choice of pasta topped with marinara sauce, parmesan, & Italian herbs.',
-    images: '/images/menu-items/side/pasta.webp',
-    size1: 'Side portion',
-    price1: 6.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null,
-    isPasta: true
-  },
-  {
-    id: 2,
-    category: 'SideOrder',
-    name: 'Side of Pasta & Meatball',
-    description: 'Choice of pasta topped with marinara sauce, one jumbo meatball, parmesan, & Italian herbs.',
-    images: '/images/menu-items/side/meatball-pasta.webp',
-    size1: 'Side portion',
-    price1: 8.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null,
-    isPasta: true
-  },
-  {
-    id: 3,
-    category: 'SideOrder',
-    name: 'Side of Pasta & Sausage',
-    description: 'Choice of pasta topped with marinara sauce, one sausage link, parmesan, & Italian herbs.',
-    images: '/images/menu-items/side/sausage-pasta.webp',
-    size1: 'Side portion',
-    price1: 8.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null,
-    isPasta: true
-  },
+  // {
+  //   id: 1,
+  //   category: 'SideOrder',
+  //   name: 'Side of Pasta',
+  //   description: 'Choice of pasta topped with marinara sauce, parmesan, & Italian herbs.',
+  //   images: '/images/menu-items/side/pasta.webp',
+  //   size1: 'Side portion',
+  //   price1: 6.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null,
+  //   isPasta: true
+  // },
+  // {
+  //   id: 2,
+  //   category: 'SideOrder',
+  //   name: 'Side of Pasta & Meatball',
+  //   description: 'Choice of pasta topped with marinara sauce, one jumbo meatball, parmesan, & Italian herbs.',
+  //   images: '/images/menu-items/side/meatball-pasta.webp',
+  //   size1: 'Side portion',
+  //   price1: 8.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null,
+  //   isPasta: true
+  // },
+  // {
+  //   id: 3,
+  //   category: 'SideOrder',
+  //   name: 'Side of Pasta & Sausage',
+  //   description: 'Choice of pasta topped with marinara sauce, one sausage link, parmesan, & Italian herbs.',
+  //   images: '/images/menu-items/side/sausage-pasta.webp',
+  //   size1: 'Side portion',
+  //   price1: 8.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null,
+  //   isPasta: true
+  // },
  
+  // {
+  //   id: 1,
+  //   category: 'SideOrder',
+  //   name: 'Side of Meatballs',
+  //   description: 'Twin jumbo meatballs topped with marinara sauce, parmesan, & Italian herbs.',
+  //   images: '/images/menu-items/side/meatballs.webp',
+  //   size1: 'Two jumbo meatballs',
+  //   price1: 6.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null,
+  //   isPasta: false
+  // },
+  // {
+  //   id: 2,
+  //   category: 'SideOrder',
+  //   name: 'Side of Sausage',
+  //   description: 'Twin sweet Italian sausage links topped with marinara sauce, parmesan, & Italian herbs.',
+  //   images: '/images/menu-items/side/sausage.webp',
+  //   size1: 'Two links',
+  //   price1: 6.99,
+  //   size2: null,
+  //   price2: null,
+  //   size3: null,
+  //   price3: null,
+  //   isPasta: false
+  // },
   {
     id: 1,
-    category: 'SideOrder',
-    name: 'Side of Meatballs',
-    description: 'Twin jumbo meatballs topped with marinara sauce, parmesan, & Italian herbs.',
-    images: '/images/menu-items/side/meatballs.webp',
-    size1: 'Two jumbo meatballs',
-    price1: 6.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null,
-    isPasta: false
-  },
-  {
-    id: 2,
-    category: 'SideOrder',
-    name: 'Side of Sausage',
-    description: 'Twin sweet Italian sausage links topped with marinara sauce, parmesan, & Italian herbs.',
-    images: '/images/menu-items/side/sausage.webp',
-    size1: 'Two links',
-    price1: 6.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null,
-    isPasta: false
-  },
-  {
-    id: 3,
     category: 'SideOrder',
     name: 'Garlic Bread',
     description: 'Foot long Italian bread brushed with garlic herb butter & lightly toasted. Served with marinara.',
@@ -85,7 +85,7 @@ export const SIDE_ORDER = [
     isPasta: false
   },
   {
-    id: 4,
+    id: 2,
     category: 'SideOrder',
     name: 'Fries',
     description: 'Tossed with salt, black pepper, garlic seasoning, oregano, & parsley.',
@@ -99,7 +99,7 @@ export const SIDE_ORDER = [
     isPasta: false
   },
  {
-    id: 5,
+    id: 3,
     category: 'SideOrder',
     name: 'Ranch Dressing',
     description: null,
@@ -113,7 +113,7 @@ export const SIDE_ORDER = [
     isPasta: false
   },
   {
-    id: 6,
+    id: 4,
     category: 'SideOrder',
     name: 'Blue Cheese Dressing',
     description: null,
@@ -127,7 +127,7 @@ export const SIDE_ORDER = [
     isPasta: false
   },
   {
-    id: 7,
+    id: 5,
     category: 'SideOrder',
     name: 'Italian Dressing',
     description: null,
@@ -141,7 +141,7 @@ export const SIDE_ORDER = [
     isPasta: false
   },
   {
-    id: 8,
+    id: 6,
     category: 'SideOrder',
     name: 'Caesar Dressing',
     description: null,
@@ -155,7 +155,7 @@ export const SIDE_ORDER = [
     isPasta: false
   },
   {
-    id: 9,
+    id: 7,
     category: 'SideOrder',
     name: 'Mikes Hot Honey',
     description: 'Infused with chilies.',
@@ -169,7 +169,7 @@ export const SIDE_ORDER = [
     isPasta: false
   },
   {
-    id: 10,
+    id: 8,
     category: 'SideOrder',
     name: 'Polly-O Ricotta Cheese',
     description: 'Premium Italian natural ricotta cheese. A New York favorite.',
