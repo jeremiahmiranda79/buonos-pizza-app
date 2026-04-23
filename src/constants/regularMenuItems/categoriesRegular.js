@@ -40,18 +40,32 @@ export const PRODUCT_CATEGORIES = [
     id: 9,
     name: 'Side Order' 
   },
+
   { 
     id: 10,
-    name: 'Entree' 
+    name: 'Dessert' 
   },
   { 
     id: 11,
-    name: 'Hot Sub' 
+    name: 'Beverage' 
   },
   { 
     id: 12,
-    name: 'Cold Sub' 
+    name: 'NY Specialty' 
   },
+
+  // { 
+  //   id: 10,
+  //   name: 'Entree' 
+  // },
+  // { 
+  //   id: 11,
+  //   name: 'Hot Sub' 
+  // },
+  // { 
+  //   id: 12,
+  //   name: 'Cold Sub' 
+  // },
 
   { 
     id: 13,
