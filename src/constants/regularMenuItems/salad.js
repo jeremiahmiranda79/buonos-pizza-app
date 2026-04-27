@@ -4,7 +4,7 @@ export const SALAD = [
     category: 'Salad',
     name: 'Caprese',
     description: 'Mozzarella fresca, vine-ripened tomatoes, olive oil, balsamic fig glaze, basil, salt, & pepper.',
-    images: '/images/menu-items/salad/caprese.webp',
+    images: '/images/menu-items/salad/caprese.jpg',
     size1: null,
     price1: null,
     size2: 'Large, serves two-three',

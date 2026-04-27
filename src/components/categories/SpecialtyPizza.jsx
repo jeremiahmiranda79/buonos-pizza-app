@@ -31,7 +31,7 @@ const SpecialtyPizza = () => {
   return (
     <Container id={PRODUCT_CATEGORIES[1].id} style={{scrollMarginTop: '150px'}}>
       <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[1].name}</h1>
-      <Image style={{marginBottom: '10px'}} src="/images/categories/pizza-special.webp" fluid alt={PRODUCT_CATEGORIES[1].name}/>
+      <Image style={{marginBottom: '10px'}} src="/images/categories/pizza-cat.jpg" fluid alt={PRODUCT_CATEGORIES[1].name}/>
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {SPECIALTY_PIZZA.map((item) => (
           <Col key={item.id}>

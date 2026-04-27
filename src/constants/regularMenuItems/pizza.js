@@ -57,7 +57,7 @@ export const PIZZAS = [
     category: 'Pizza',
     name: 'Margherita Buono',
     description: 'Neapolitan-style; a thin, round crust, topped with fresh mozzarella, & stone deck oven baked. Finished with a fresh tomato sauce, & basil puree.',
-    images: '/images/menu-items/pizza/specialty-margherita-pizza.webp',
+    images: '/images/menu-items/pizza/specialty-margherita-pizza-2.jpg',
     size1: 'Small 14 inch, 6 cut',
     price1: 18.99,
     size2: null,
